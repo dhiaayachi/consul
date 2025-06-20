@@ -360,7 +360,7 @@ func (q *QueryOptions) SetTokenSecret(s string) {
 
 // BlockingTimeout implements pool.BlockableQuery
 func (q QueryOptions) BlockingTimeout(maxQueryTime, defaultQueryTime time.Duration) time.Duration {
-	// Match logic in Server.blockingQuery.
+	// Match logic in Servers.blockingQuery.
 	if q.MinQueryIndex > 0 {
 		if q.MaxQueryTime > maxQueryTime {
 			q.MaxQueryTime = maxQueryTime

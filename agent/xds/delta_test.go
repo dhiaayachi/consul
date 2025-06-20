@@ -655,7 +655,7 @@ func TestServer_DeltaAggregatedResources_v3_SlowEndpointPopulation(t *testing.T)
 	atomic.StoreUint32(&slowHackDisabled, 1)
 
 	testutil.RunStep(t, "delayed endpoint update finally comes in", func(t *testing.T) {
-		// Trigger the xds.Server select{} to wake up and notice our hack is disabled.
+		// Trigger the xds.Servers select{} to wake up and notice our hack is disabled.
 		// The actual contents of this change are irrelevant.
 		snap = newTestSnapshot(t, snap, "", nil)
 		mgr.DeliverConfig(t, sid, snap)

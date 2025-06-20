@@ -99,10 +99,10 @@ func newTestServer(t *testing.T, logger hclog.Logger, name, dc string, tlsConf *
 	}
 }
 
-// fakeRPCListener mimics agent/consul.Server.listen to handle the RPCType byte.
-// In the future we should be able to refactor Server and extract this RPC
+// fakeRPCListener mimics agent/consul.Servers.listen to handle the RPCType byte.
+// In the future we should be able to refactor Servers and extract this RPC
 // handling logic so that we don't need to use a fake.
-// For now, since this logic is in agent/consul, we can't easily use Server.listen
+// For now, since this logic is in agent/consul, we can't easily use Servers.listen
 // so we fake it.
 type fakeRPCListener struct {
 	t                   *testing.T

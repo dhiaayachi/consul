@@ -286,13 +286,13 @@ func TestRPC_ReadyForConsistentReads(t *testing.T) {
 	testrpc.WaitForLeader(t, s.RPC, "dc1")
 
 	if !s.isReadyForConsistentReads() {
-		t.Fatal("Server should be ready for consistent reads")
+		t.Fatal("Servers should be ready for consistent reads")
 	}
 
 	s.resetConsistentReadReady()
 	err := s.ConsistentRead()
 	if err.Error() != "Not ready to serve consistent reads" {
-		t.Fatal("Server should NOT be ready for consistent reads")
+		t.Fatal("Servers should NOT be ready for consistent reads")
 	}
 
 	go func() {

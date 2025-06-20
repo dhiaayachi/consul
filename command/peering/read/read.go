@@ -123,10 +123,10 @@ func formatPeering(peering *api.Peering) string {
 
 	buffer.WriteString("\n")
 	buffer.WriteString(fmt.Sprintf("Peer ID:               %s\n", peering.PeerID))
-	buffer.WriteString(fmt.Sprintf("Peer Server Name:      %s\n", peering.PeerServerName))
+	buffer.WriteString(fmt.Sprintf("Peer Servers Name:      %s\n", peering.PeerServerName))
 	buffer.WriteString(fmt.Sprintf("Peer CA Pems:          %d\n", len(peering.PeerCAPems)))
 	if peering.PeerServerAddresses != nil && len(peering.PeerServerAddresses) > 0 {
-		buffer.WriteString("Peer Server Addresses:\n")
+		buffer.WriteString("Peer Servers Addresses:\n")
 		for _, v := range peering.PeerServerAddresses {
 			buffer.WriteString(fmt.Sprintf("    %s", v))
 		}

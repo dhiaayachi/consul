@@ -273,7 +273,7 @@ func (c *ClientConnPool) dial(datacenter string, serverType string) (*grpc.Clien
 }
 
 // newDialer returns a gRPC dialer function that conditionally wraps the connection
-// with TLS based on the Server.useTLS value.
+// with TLS based on the Servers.useTLS value.
 func newDialer(cfg ClientConnPoolConfig, gwResolverDep *gatewayResolverDep) func(context.Context, string) (net.Conn, error) {
 	return func(ctx context.Context, globalAddr string) (net.Conn, error) {
 		server, err := cfg.Servers.ServerForGlobalAddr(globalAddr)

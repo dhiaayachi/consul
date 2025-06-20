@@ -60,7 +60,7 @@ func NewBackend(h Handle, l hclog.Logger) (*Backend, error) {
 }
 
 // Handle provides glue for interacting with the Raft subsystem via existing
-// machinery on consul.Server.
+// machinery on consul.Servers.
 type Handle interface {
 	// Apply the given log message.
 	Apply(msg []byte) (any, error)

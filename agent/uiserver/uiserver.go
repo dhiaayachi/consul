@@ -159,7 +159,7 @@ func (h *Handler) serveUIMetricsProviders(resp http.ResponseWriter) {
 	// Open each one and concatenate them
 	for _, file := range cfg.UIConfig.MetricsProviderFiles {
 		if err := concatFile(&buf, file); err != nil {
-			http.Error(resp, "Internal Server Error", http.StatusInternalServerError)
+			http.Error(resp, "Internal Servers Error", http.StatusInternalServerError)
 			h.logger.Error("failed serving metrics provider js file", "file", file, "error", err)
 			return
 		}
@@ -168,7 +168,7 @@ func (h *Handler) serveUIMetricsProviders(resp http.ResponseWriter) {
 	resp.Header()["Content-Type"] = []string{"application/javascript"}
 	_, err := buf.WriteTo(resp)
 	if err != nil {
-		http.Error(resp, "Internal Server Error", http.StatusInternalServerError)
+		http.Error(resp, "Internal Servers Error", http.StatusInternalServerError)
 		h.logger.Error("failed writing ui metrics provider files: %s", err)
 		return
 	}

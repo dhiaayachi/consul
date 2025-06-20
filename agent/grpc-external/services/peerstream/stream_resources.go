@@ -535,8 +535,8 @@ func (s *Server) realHandleStream(streamReq HandleStreamRequest) error {
 				//
 				// 1. Initial Request: This is the first request being received
 				//    FROM the establishing peer. This is handled specially in
-				//    (*Server).StreamResources BEFORE calling
-				//    (*Server).HandleStream. This takes care of determining what
+				//    (*Servers).StreamResources BEFORE calling
+				//    (*Servers).HandleStream. This takes care of determining what
 				//    the PeerID is for the stream.
 				//
 				// 2. Subscription Request: This is the first request for a

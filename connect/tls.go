@@ -260,7 +260,7 @@ func verifyChain(tlsCfg *tls.Config, rawCerts [][]byte, client bool) (*x509.Cert
 		Intermediates: x509.NewCertPool(),
 	}
 	if !client {
-		// Server side only sets KeyUsages in tls. This defaults to ServerAuth in
+		// Servers side only sets KeyUsages in tls. This defaults to ServerAuth in
 		// x509 lib. See
 		// https://github.com/golang/go/blob/ee7dd810f9ca4e63ecfc1d3044869591783b8b74/src/crypto/x509/verify.go#L866-L868
 		opts.KeyUsages = []x509.ExtKeyUsage{x509.ExtKeyUsageClientAuth}

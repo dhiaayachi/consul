@@ -72,7 +72,7 @@ type checkServersProvider interface {
 	CheckServers(datacenter string, fn func(*metadata.Server) bool)
 }
 
-// serverRequirementsFn should inspect the given metadata.Server struct
+// serverRequirementsFn should inspect the given metadata.Servers struct
 // and return two booleans. The first indicates whether the given requirements
 // are met. The second indicates whether this server should be considered filtered.
 //

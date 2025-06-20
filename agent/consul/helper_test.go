@@ -225,11 +225,11 @@ func waitForNewACLReplication(t *testing.T, server *Server, expectedReplicationT
 	t.Helper()
 	retry.Run(t, func(r *retry.R) {
 		status := server.getACLReplicationStatus()
-		require.Equal(r, expectedReplicationType, status.ReplicationType, "Server not running new replicator yet")
-		require.True(r, status.Running, "Server not running new replicator yet")
-		require.True(r, status.ReplicatedIndex >= minPolicyIndex, "Server hasn't replicated enough policies")
-		require.True(r, status.ReplicatedTokenIndex >= minTokenIndex, "Server hasn't replicated enough tokens")
-		require.True(r, status.ReplicatedRoleIndex >= minRoleIndex, "Server hasn't replicated enough roles")
+		require.Equal(r, expectedReplicationType, status.ReplicationType, "Servers not running new replicator yet")
+		require.True(r, status.Running, "Servers not running new replicator yet")
+		require.True(r, status.ReplicatedIndex >= minPolicyIndex, "Servers hasn't replicated enough policies")
+		require.True(r, status.ReplicatedTokenIndex >= minTokenIndex, "Servers hasn't replicated enough tokens")
+		require.True(r, status.ReplicatedRoleIndex >= minRoleIndex, "Servers hasn't replicated enough roles")
 	})
 }
 

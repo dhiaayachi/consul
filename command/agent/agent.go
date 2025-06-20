@@ -225,7 +225,7 @@ func (c *cmd) run(args []string) int {
 		ui.Info(fmt.Sprintf("         Partition: '%s'", ap))
 	}
 	ui.Info(fmt.Sprintf("        Datacenter: '%s' (Segment: '%s')", config.Datacenter, segment))
-	ui.Info(fmt.Sprintf("            Server: %v (Bootstrap: %v)", config.ServerMode, config.Bootstrap))
+	ui.Info(fmt.Sprintf("            Servers: %v (Bootstrap: %v)", config.ServerMode, config.Bootstrap))
 	ui.Info(fmt.Sprintf("       Client Addr: %v (HTTP: %d, HTTPS: %d, gRPC: %d, gRPC-TLS: %d, DNS: %d)", config.ClientAddrs,
 		config.HTTPPort, config.HTTPSPort, config.GRPCPort, config.GRPCTLSPort, config.DNSPort))
 	ui.Info(fmt.Sprintf("      Cluster Addr: %v (LAN: %d, WAN: %d)", config.AdvertiseAddrLAN,

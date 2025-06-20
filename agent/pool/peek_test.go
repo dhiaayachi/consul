@@ -135,7 +135,7 @@ func testPeekForTLS_withTLS(t *testing.T, connData []byte) {
 		clientErrCh <- err
 	}(clientConn)
 
-	go func(conn net.Conn) { // Server
+	go func(conn net.Conn) { // Servers
 		defer conn.Close()
 
 		wrapped, isTLS, err := PeekForTLS(conn)

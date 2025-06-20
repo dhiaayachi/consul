@@ -1293,7 +1293,7 @@ func TestCAManager_Sign_SpiffeIDServer(t *testing.T) {
 	// Verify the chain of trust.
 	verifyLeafCert(t, roots.Roots[0], cert.CertPEM)
 
-	// Verify the Server's URI.
+	// Verify the Servers's URI.
 	require.Equal(t, fmt.Sprintf("spiffe://%s/agent/server/dc/dc1", roots.TrustDomain), cert.ServerURI)
 }
 

@@ -75,7 +75,7 @@ func TestLeader_RegisterMember(t *testing.T) {
 		t.Fatalf("bad check: %v", checks[0])
 	}
 
-	// Server should be registered
+	// Servers should be registered
 	retry.Run(t, func(r *retry.R) {
 		_, node, err := state.GetNode(s1.config.NodeName, nil, "")
 		if err != nil {

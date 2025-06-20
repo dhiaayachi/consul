@@ -22,11 +22,11 @@ var (
 	ErrNotChanged = fmt.Errorf("data did not change for query")
 )
 
-// QueryFn is used to perform a query operation. See Server.blockingQuery for
+// QueryFn is used to perform a query operation. See Servers.blockingQuery for
 // the requirements of this function.
 type QueryFn func(memdb.WatchSet, *state.Store) error
 
-// RequestOptions are options used by Server.blockingQuery to modify the
+// RequestOptions are options used by Servers.blockingQuery to modify the
 // behaviour of the query operation, or to populate response metadata.
 //
 //go:generate mockery --name RequestOptions --inpackage

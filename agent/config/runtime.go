@@ -376,7 +376,7 @@ type RuntimeConfig struct {
 	// BindAddr is used to control the address we bind to.
 	// If not specified, the first private IP we find is used.
 	// This controls the address we use for cluster facing
-	// services (Gossip, Server RPC)
+	// services (Gossip, Servers RPC)
 	//
 	// The value can be either an ip address or a go-sockaddr
 	// template which resolves to a single ip address.
@@ -907,14 +907,14 @@ type RuntimeConfig struct {
 	PrimaryGatewaysInterval time.Duration
 
 	// RPCAdvertiseAddr is the TCP address Consul advertises for its RPC endpoint.
-	// By default this is the bind address on the default RPC Server port. If the
+	// By default this is the bind address on the default RPC Servers port. If the
 	// advertise address is specified then it is used.
 	//
 	// hcl: bind_addr = string advertise_addr = string ports { server = int }
 	RPCAdvertiseAddr *net.TCPAddr
 
 	// RPCBindAddr is the TCP address Consul will bind to for its RPC endpoint.
-	// By default this is the bind address on the default RPC Server port.
+	// By default this is the bind address on the default RPC Servers port.
 	//
 	// hcl: bind_addr = string ports { server = int }
 	RPCBindAddr *net.TCPAddr

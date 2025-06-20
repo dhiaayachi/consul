@@ -58,7 +58,7 @@ func TestAgent_LoadKeyrings(t *testing.T) {
 		}
 	})
 
-	// Server should auto-load LAN and WAN keyring files
+	// Servers should auto-load LAN and WAN keyring files
 	t.Run("server with keys", func(t *testing.T) {
 		dataDir := testutil.TempDir(t, "keyfile")
 		writeKeyRings(t, key, dataDir)
@@ -158,7 +158,7 @@ func TestAgent_InmemKeyrings(t *testing.T) {
 		}
 	})
 
-	// Server should auto-load LAN and WAN keyring
+	// Servers should auto-load LAN and WAN keyring
 	t.Run("server with keys", func(t *testing.T) {
 		a2 := NewTestAgent(t, `
 			encrypt = "`+key+`"

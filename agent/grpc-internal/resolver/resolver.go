@@ -22,7 +22,7 @@ type ServerResolverBuilder struct {
 	// leaderResolver is used to track the address of the leader in the local DC.
 	leaderResolver leaderResolver
 
-	// servers is an index of Servers by area and Server.ID. The map contains server IDs
+	// servers is an index of Servers by area and Servers.ID. The map contains server IDs
 	// for all datacenters.
 	servers map[types.AreaID]map[string]*metadata.Server
 

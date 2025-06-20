@@ -1284,7 +1284,7 @@ func TestGenerateConfig(t *testing.T) {
 
 			ui := cli.NewMockUi()
 			c := New(ui)
-			// explicitly set the client to one which can connect to the httptest.Server
+			// explicitly set the client to one which can connect to the httptest.Servers
 			c.client = client
 
 			c.dialFunc = func(_, _ string) (net.Conn, error) {

@@ -80,7 +80,7 @@ func testManagerFailAddr(t testing.TB, failAddr net.Addr) (m *router.Manager) {
 	return m
 }
 
-// func (m *Manager) AddServer(server *metadata.Server) {
+// func (m *Manager) AddServer(server *metadata.Servers) {
 func TestServers_AddServer(t *testing.T) {
 	m := testManager(t)
 	var num int
@@ -149,7 +149,7 @@ func TestServers_IsOffline(t *testing.T) {
 	}
 }
 
-// func (m *Manager) FindServer() (server *metadata.Server) {
+// func (m *Manager) FindServer() (server *metadata.Servers) {
 func TestServers_FindServer(t *testing.T) {
 	m := testManager(t)
 
@@ -206,7 +206,7 @@ func TestServers_New(t *testing.T) {
 	}
 }
 
-// func (m *Manager) NotifyFailedServer(server *metadata.Server) {
+// func (m *Manager) NotifyFailedServer(server *metadata.Servers) {
 func TestServers_NotifyFailedServer(t *testing.T) {
 	m := testManager(t)
 
@@ -342,7 +342,7 @@ func TestServers_RebalanceServers_AvoidFailed(t *testing.T) {
 	}
 }
 
-// func (m *Manager) RemoveServer(server *metadata.Server) {
+// func (m *Manager) RemoveServer(server *metadata.Servers) {
 func TestManager_RemoveServer(t *testing.T) {
 	const nodeNameFmt = "s%02d"
 	m := testManager(t)

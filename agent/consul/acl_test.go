@@ -2248,7 +2248,7 @@ func TestACLResolver_ACLsEnabled(t *testing.T) {
 			resolver: &ACLResolver{},
 		},
 		{
-			name: "config enabled, disableDuration=0 (Server)",
+			name: "config enabled, disableDuration=0 (Servers)",
 			resolver: &ACLResolver{
 				config: ACLResolverSettings{ACLsEnabled: true},
 			},

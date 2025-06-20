@@ -179,7 +179,7 @@ type protocolConfig struct {
 	combinedCAPool *x509.CertPool
 
 	// useAutoCert indicates wether we should use auto-encrypt/config data
-	// for TLS server/listener. NOTE: Only applies to external GRPC Server.
+	// for TLS server/listener. NOTE: Only applies to external GRPC Servers.
 	useAutoCert bool
 }
 

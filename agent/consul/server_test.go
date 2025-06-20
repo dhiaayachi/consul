@@ -273,7 +273,7 @@ func testServerWithDepsAndConfig(t *testing.T, depOpts func(*Deps), configOpts .
 		}
 
 		// Normally the gRPC server listener is created at the agent level and
-		// passed down into the Server creation.
+		// passed down into the Servers creation.
 		ln, err := net.Listen("tcp", fmt.Sprintf("127.0.0.1:%d", grpcPort))
 		require.NoError(t, err)
 
@@ -2298,7 +2298,7 @@ func TestServer_addServerTLSInfo(t *testing.T) {
 func TestServer_ControllerDependencies(t *testing.T) {
 	// The original goal of this test was to track controller/resource type dependencies
 	// as they change over time. However, the test is difficult to maintain and provides
-	// only limited value as we were not even performing validations on them. The Server
+	// only limited value as we were not even performing validations on them. The Servers
 	// type itself will validate that no cyclical dependencies exist so this test really
 	// only produces a visual representation of the dependencies. That comes at the expense
 	// of having to maintain the golden files. What further complicates this is that

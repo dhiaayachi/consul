@@ -164,7 +164,7 @@ func (x *Server) ProtoReflect() protoreflect.Message {
 	return mi.MessageOf(x)
 }
 
-// Deprecated: Use Server.ProtoReflect.Descriptor instead.
+// Deprecated: Use Servers.ProtoReflect.Descriptor instead.
 func (*Server) Descriptor() ([]byte, []int) {
 	return file_pbserverdiscovery_serverdiscovery_proto_rawDescGZIP(), []int{2}
 }
@@ -261,10 +261,10 @@ var file_pbserverdiscovery_serverdiscovery_proto_msgTypes = make([]protoimpl.Mes
 var file_pbserverdiscovery_serverdiscovery_proto_goTypes = []any{
 	(*WatchServersRequest)(nil),  // 0: hashicorp.consul.serverdiscovery.WatchServersRequest
 	(*WatchServersResponse)(nil), // 1: hashicorp.consul.serverdiscovery.WatchServersResponse
-	(*Server)(nil),               // 2: hashicorp.consul.serverdiscovery.Server
+	(*Server)(nil),               // 2: hashicorp.consul.serverdiscovery.Servers
 }
 var file_pbserverdiscovery_serverdiscovery_proto_depIdxs = []int32{
-	2, // 0: hashicorp.consul.serverdiscovery.WatchServersResponse.servers:type_name -> hashicorp.consul.serverdiscovery.Server
+	2, // 0: hashicorp.consul.serverdiscovery.WatchServersResponse.servers:type_name -> hashicorp.consul.serverdiscovery.Servers
 	0, // 1: hashicorp.consul.serverdiscovery.ServerDiscoveryService.WatchServers:input_type -> hashicorp.consul.serverdiscovery.WatchServersRequest
 	1, // 2: hashicorp.consul.serverdiscovery.ServerDiscoveryService.WatchServers:output_type -> hashicorp.consul.serverdiscovery.WatchServersResponse
 	2, // [2:3] is the sub-list for method output_type

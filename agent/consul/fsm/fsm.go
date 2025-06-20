@@ -47,7 +47,7 @@ func registerCommand(msg structs.MessageType, fn unboundCommand) {
 
 // FSM implements a finite state machine that is used
 // along with Raft to provide strong consistency. We implement
-// this outside the Server to avoid exposing this outside the package.
+// this outside the Servers to avoid exposing this outside the package.
 type FSM struct {
 	deps    Deps
 	logger  hclog.Logger

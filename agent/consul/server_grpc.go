@@ -38,7 +38,7 @@ func (s *Server) setupGRPCInterfaces(config *Config, deps Deps) error {
 	// A server has 5 different gRPC interfaces
 	//
 	// * External - This is the main public gRPC network listener. This
-	//      is an actual *grpc.Server that we have listening on both the
+	//      is an actual *grpc.Servers that we have listening on both the
 	//      grpc and grpc_tls ports. Generally this interface will not be
 	//      used by the server itself. All services which are intended
 	//      to be public APIs must be registered to this interface. This
@@ -54,7 +54,7 @@ func (s *Server) setupGRPCInterfaces(config *Config, deps Deps) error {
 	//      a channel. When a new yamux session is opened which produces
 	//      a yamux conn (which implements the net.Conn interface), the
 	//      connection is then sent to the custom listener. Then the
-	//      standard grpc.Server.Serve method can accept the conn from
+	//      standard grpc.Servers.Serve method can accept the conn from
 	//      the listener and operate on it like any other standard conn.
 	//      Historically, the external gRPC interface was optional and
 	//      so all services which needed leader or DC forwarding had to
@@ -227,7 +227,7 @@ func (s *Server) setupGRPCServices(config *Config, deps Deps) error {
 	// Initializing the peering backend must be done before
 	// creating any peering servers. There is other code which
 	// calls methods on this and so the backend must be stored
-	// on the Server type. In the future we should investigate
+	// on the Servers type. In the future we should investigate
 	// whether we can not require the backend in that other code.
 	s.peeringBackend = NewPeeringBackend(s)
 
@@ -343,7 +343,7 @@ func (s *Server) registerResourceServiceServer(typeRegistry resource.Registry, r
 
 	tenancyBridge := NewV1TenancyBridge(s)
 
-	// Create the Resource Service Server
+	// Create the Resource Service Servers
 	srv := resourcegrpc.NewServer(s.newResourceServiceConfig(typeRegistry, resolver, tenancyBridge))
 
 	// Register the server to all the desired interfaces

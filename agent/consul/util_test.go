@@ -153,7 +153,7 @@ func (p testServersProvider) CheckServers(datacenter string, fn func(*metadata.S
 		// filter these out - now I don't have to modify the tests. Originally the dc filtering
 		// happened in the ServersInDCMeetMinimumVersion, now we get a list of servers to check
 		// through the routing infrastructure or server lookup which will map a datacenter to a
-		// list of metadata.Server structs that are all in that datacenter.
+		// list of metadata.Servers structs that are all in that datacenter.
 		if srv.Datacenter != datacenter {
 			continue
 		}

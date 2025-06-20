@@ -398,7 +398,7 @@ func TestCheckHTTP_Proxied(t *testing.T) {
 	t.Parallel()
 
 	proxy := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintln(w, "Proxy Server")
+		fmt.Fprintln(w, "Proxy Servers")
 	}))
 	defer proxy.Close()
 
@@ -425,7 +425,7 @@ func TestCheckHTTP_Proxied(t *testing.T) {
 	// If ProxyHTTP is set, check() reqs should go to that address
 	retry.Run(t, func(r *retry.R) {
 		output := notif.Output(cid)
-		if !strings.Contains(output, "Proxy Server") {
+		if !strings.Contains(output, "Proxy Servers") {
 			r.Fatalf("c.ProxyHTTP server did not receive request, but should")
 		}
 	})
@@ -435,7 +435,7 @@ func TestCheckHTTP_NotProxied(t *testing.T) {
 	t.Parallel()
 
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprintln(w, "Original Server")
+		fmt.Fprintln(w, "Original Servers")
 	}))
 	defer server.Close()
 
@@ -460,7 +460,7 @@ func TestCheckHTTP_NotProxied(t *testing.T) {
 	// If ProxyHTTP is not set, check() reqs should go to the address in CheckHTTP.HTTP
 	retry.Run(t, func(r *retry.R) {
 		output := notif.Output(cid)
-		if !strings.Contains(output, "Original Server") {
+		if !strings.Contains(output, "Original Servers") {
 			r.Fatalf("server did not receive request")
 		}
 	})

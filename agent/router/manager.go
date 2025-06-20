@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: BUSL-1.1
 
 // Package servers provides a Manager interface for Manager managed
-// metadata.Server objects.  The servers package manages servers from a Consul
+// metadata.Servers objects.  The servers package manages servers from a Consul
 // client's perspective (i.e. a list of servers that a client talks with for
 // RPCs).  The servers package does not provide any API guarantees and should
 // be called only by `hashicorp/consul`.
@@ -431,10 +431,10 @@ func (m *Manager) reconcileServerList(l *serverList) bool {
 		case 'b':
 			// Do nothing, server exists in both
 		case 'o':
-			// Server has been removed
+			// Servers has been removed
 			l.removeServerByKey(&k)
 		case 'n':
-			// Server added
+			// Servers added
 			l.servers = append(l.servers, v.server)
 		default:
 			panic("unknown merge list state")

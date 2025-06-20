@@ -68,7 +68,7 @@ func (g *generator) generateFile(file *protogen.File) error {
 	for _, svc := range file.Services {
 		svcTypes := &cloningServiceTypes{
 			ClientTypeName:        genFile.QualifiedGoIdent(protogen.GoIdent{GoName: svc.GoName + "Client", GoImportPath: file.GoImportPath}),
-			ServerTypeName:        genFile.QualifiedGoIdent(protogen.GoIdent{GoName: svc.GoName + "Server", GoImportPath: file.GoImportPath}),
+			ServerTypeName:        genFile.QualifiedGoIdent(protogen.GoIdent{GoName: svc.GoName + "Servers", GoImportPath: file.GoImportPath}),
 			CloningClientTypeName: genFile.QualifiedGoIdent(protogen.GoIdent{GoName: "Cloning" + svc.GoName + "Client", GoImportPath: file.GoImportPath}),
 			ServiceName:           svc.GoName,
 		}

@@ -50,6 +50,8 @@ const (
 	ProxyConfigGlobal string = "global"
 	MeshConfigMesh    string = "mesh"
 
+	LLMAgent string = "llm-agent"
+
 	DefaultServiceProtocol = "tcp"
 
 	ConnectionExactBalance = "exact_balance"
@@ -849,6 +851,8 @@ func MakeConfigEntry(kind, name string) (ConfigEntry, error) {
 		return &TCPRouteConfigEntry{Name: name}, nil
 	case JWTProvider:
 		return &JWTProviderConfigEntry{Name: name}, nil
+	case LLMAgent:
+		return &LLMAgentConfigEntry{Name: name}, nil
 	default:
 		return nil, fmt.Errorf("invalid config entry kind: %s", kind)
 	}

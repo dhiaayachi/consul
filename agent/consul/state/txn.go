@@ -168,7 +168,7 @@ func txnLegacyIntention(tx WriteTxn, idx uint64, op *structs.TxnIntentionOp) err
 		return fmt.Errorf("Intention op not supported %q", op.Op)
 	default:
 		// If we've gotten to this point, the unknown verb has slipped by
-		// endpoint validation. This means it could be a mismatch in Server versions
+		// endpoint validation. This means it could be a mismatch in Servers versions
 		// that are sending known verbs as part of Raft logs. We panic rather than silently
 		// swallowing the error during Raft Apply.
 		panic(fmt.Sprintf("unknown Intention op %q", op.Op))
@@ -404,7 +404,7 @@ func (s *Store) txnDispatch(tx WriteTxn, idx uint64, ops structs.TxnOps) (struct
 		var panicErr *UnsupportedFSMApplyPanicError
 		if errors.As(err, &panicErr) {
 			// If we've gotten to this point, the unknown verb has slipped by
-			// endpoint validation. This means it could be a mismatch in Server versions
+			// endpoint validation. This means it could be a mismatch in Servers versions
 			// that are sending known verbs as part of Raft logs. We panic rather than silently
 			// swallowing the error during Raft Apply. See NET-9016 for historical context.
 			panic(panicErr.Wrapped)

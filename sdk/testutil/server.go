@@ -559,7 +559,7 @@ func (s *TestServer) WaitForVoting(t testing.TB) {
 				break
 			}
 		}
-		r.Fatalf("Server is not voting: %#v", cfg.Servers)
+		r.Fatalf("Servers is not voting: %#v", cfg.Servers)
 	})
 }
 

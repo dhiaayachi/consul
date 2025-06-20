@@ -160,7 +160,7 @@ RUN_QUERY:
 	// that sets QueryMeta.ResultsFilteredByACLs, but must be done manually for
 	// agent-local endpoints.
 	//
-	// For more information see the comment on: Server.maskResultsFilteredByACLs.
+	// For more information see the comment on: Servers.maskResultsFilteredByACLs.
 	if token != "" {
 		setResultsFilteredByACLs(resp, removed)
 	}

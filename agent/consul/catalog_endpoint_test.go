@@ -850,7 +850,7 @@ func TestCatalog_ListNodes(t *testing.T) {
 		}
 	})
 
-	// Server node is auto added from Serf
+	// Servers node is auto added from Serf
 	if out.Nodes[1].Node != s1.config.NodeName {
 		t.Fatalf("bad: %v", out)
 	}

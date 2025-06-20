@@ -98,7 +98,7 @@ func testHealthView_IntegrationWithStore_WithEmptySnapshot(t *testing.T, peerNam
 	store := submatview.NewStore(hclog.New(nil))
 	go store.Run(ctx)
 
-	// Initially there are no services registered. Server should send an
+	// Initially there are no services registered. Servers should send an
 	// EndOfSnapshot message immediately with index of 1.
 	streamClient.QueueEvents(newEndOfSnapshotEvent(1))
 

@@ -155,7 +155,7 @@ func CreateAndRegisterCustomServiceAndSidecar(node libcluster.Agent,
 	// trying to get xDS before it's ready
 	p := serviceOpts.HTTPPort
 	agentCheck := api.AgentServiceCheck{
-		Name:     "Static Server Listening",
+		Name:     "Static Servers Listening",
 		TCP:      fmt.Sprintf("127.0.0.1:%d", p),
 		Interval: "10s",
 		Status:   api.HealthPassing,
@@ -197,7 +197,7 @@ func CreateAndRegisterStaticServerAndSidecarWithCustomContainerConfig(node libcl
 	// trying to get xDS before it's ready
 	p := serviceOpts.HTTPPort
 	agentCheck := api.AgentServiceCheck{
-		Name:     "Static Server Listening",
+		Name:     "Static Servers Listening",
 		TCP:      fmt.Sprintf("127.0.0.1:%d", p),
 		Interval: "10s",
 		Status:   api.HealthPassing,

@@ -69,7 +69,7 @@ func testManagerFailProb(failPct float64) (m *Manager) {
 	return m
 }
 
-// func (l *serverList) cycleServer() (servers []*metadata.Server) {
+// func (l *serverList) cycleServer() (servers []*metadata.Servers) {
 func TestManagerInternal_cycleServer(t *testing.T) {
 	m := testManager()
 	l := m.getServerList()
@@ -258,7 +258,7 @@ func test_reconcileServerList(maxServers int) (bool, error) {
 	for _, s := range healthyServers {
 		_, ok := resultingServerMap[*s.Key()]
 		if !ok {
-			return false, fmt.Errorf("Server %v missing from healthy map after merged lists", s)
+			return false, fmt.Errorf("Servers %v missing from healthy map after merged lists", s)
 		}
 	}
 	return true, nil

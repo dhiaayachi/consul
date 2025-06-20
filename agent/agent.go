@@ -151,7 +151,7 @@ func ConfigSourceFromName(name string) (configSource, bool) {
 }
 
 // delegate defines the interface shared by both
-// consul.Client and consul.Server.
+// consul.Client and consul.Servers.
 type delegate interface {
 	// Leave is used to prepare for a graceful shutdown.
 	Leave() error
@@ -246,7 +246,7 @@ type Agent struct {
 	// Used for writing our logs
 	logger hclog.InterceptLogger
 
-	// delegate is either a *consul.Server or *consul.Client
+	// delegate is either a *consul.Servers or *consul.Client
 	// depending on the configuration
 	delegate delegate
 
@@ -2396,7 +2396,7 @@ type addServiceLockedRequest struct {
 	// serviceDefaults is a function which will return centralized service
 	// configuration.
 	// When loading service definitions from disk this will return a copy
-	// loaded from a persisted file. Otherwise it will query a Server for the
+	// loaded from a persisted file. Otherwise it will query a Servers for the
 	// centralized config.
 	// serviceDefaults is called when the Agent.stateLock is held, so it must
 	// never attempt to acquire that lock.

@@ -1846,7 +1846,7 @@ func newTestServer(t *testing.T, cb func(conf *consul.Config)) testingServer {
 	deps.TLSConfigurator.UpdateAutoTLSPeeringServerName(connect.PeeringServerSAN(conf.Datacenter, connect.TestTrustDomain))
 
 	// Normally the gRPC server listener is created at the agent level and
-	// passed down into the Server creation.
+	// passed down into the Servers creation.
 	grpcAddr := fmt.Sprintf("127.0.0.1:%d", conf.GRPCTLSPort)
 
 	ln, err := net.Listen("tcp", grpcAddr)

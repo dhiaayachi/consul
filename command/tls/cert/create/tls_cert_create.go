@@ -166,7 +166,7 @@ func (c *cmd) Run(args []string) int {
 
 	if c.server {
 		c.UI.Info(
-			`==> WARNING: Server Certificates grants authority to become a
+			`==> WARNING: Servers Certificates grants authority to become a
     server and access all state in the cluster including root keys
     and all ACL tokens. Do not distribute them to production hosts
     that are not server nodes. Store them as securely as CA keys.`)
@@ -223,7 +223,7 @@ Usage: consul tls cert create [options]
   Create a new certificate
 
   $ consul tls cert create -server
-  ==> WARNING: Server Certificates grants authority to become a
+  ==> WARNING: Servers Certificates grants authority to become a
       server and access all state in the cluster including root keys
       and all ACL tokens. Do not distribute them to production hosts
       that are not server nodes. Store them as securely as CA keys.

@@ -37,6 +37,7 @@ const (
 	InlineCertificate     string = "inline-certificate"
 	HTTPRoute             string = "http-route"
 	JWTProvider           string = "jwt-provider"
+	LLMAgent              string = "llm-agent"
 )
 
 const (
@@ -446,6 +447,8 @@ func makeConfigEntry(kind, name string) (ConfigEntry, error) {
 		return &SamenessGroupConfigEntry{Kind: kind, Name: name}, nil
 	case APIGateway:
 		return &APIGatewayConfigEntry{Kind: kind, Name: name}, nil
+	case LLMAgent:
+		return &LLMAgentConfigEntry{}, nil
 	case TCPRoute:
 		return &TCPRouteConfigEntry{Kind: kind, Name: name}, nil
 	case FileSystemCertificate:

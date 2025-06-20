@@ -414,8 +414,8 @@ func (p *ConnPool) SetRPCClientTimeout(timeout time.Duration) {
 // dial other servers in foreign datacenters via mesh gateways.
 func DialRPCViaMeshGateway(
 	ctx context.Context,
-	dc string, // (metadata.Server).Datacenter
-	nodeName string, // (metadata.Server).ShortName
+	dc string, // (metadata.Servers).Datacenter
+	nodeName string, // (metadata.Servers).ShortName
 	srcAddr *net.TCPAddr,
 	alpnWrapper tlsutil.ALPNWrapper,
 	nextProto string,

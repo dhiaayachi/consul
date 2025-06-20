@@ -62,13 +62,13 @@ func NewHandler(logger Logger, addr net.Addr, metricsObj *metrics.Metrics, rateL
 }
 
 // Handler implements a handler for the rpc server listener, and the
-// agent.Component interface for managing the lifecycle of the grpc.Server.
+// agent.Component interface for managing the lifecycle of the grpc.Servers.
 type Handler struct {
 	srv      *grpc.Server
 	listener *Listener
 }
 
-// Handle the connection by sending it to a channel for the grpc.Server to receive.
+// Handle the connection by sending it to a channel for the grpc.Servers to receive.
 func (h *Handler) Handle(conn net.Conn) {
 	h.listener.conns <- conn
 }

@@ -49,7 +49,7 @@ func (h *raftHandle) DialLeader() (*grpc.ClientConn, error) {
 		grpc.WithTransportCredentials(insecure.NewCredentials()),
 
 		// This dialer negotiates a connection on the multiplexed server port using
-		// our type-byte prefix scheme (see Server.handleConn for other side of it).
+		// our type-byte prefix scheme (see Servers.handleConn for other side of it).
 		grpc.WithContextDialer(func(ctx context.Context, addr string) (net.Conn, error) {
 			var d net.Dialer
 			conn, err := d.DialContext(ctx, "tcp", addr)

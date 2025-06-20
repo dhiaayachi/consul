@@ -2831,7 +2831,7 @@ func TestDNS_syncExtra(t *testing.T) {
 					Rrtype: dns.TypeCNAME,
 					Class:  dns.ClassINET,
 				},
-				Target: "Another.Server.Com.",
+				Target: "Another.Servers.Com.",
 			},
 			&dns.A{
 				Hdr: dns.RR_Header{
@@ -2908,7 +2908,7 @@ func TestDNS_syncExtra(t *testing.T) {
 					Rrtype: dns.TypeCNAME,
 					Class:  dns.ClassINET,
 				},
-				Target: "Another.Server.Com.",
+				Target: "Another.Servers.Com.",
 			},
 			&dns.A{
 				Hdr: dns.RR_Header{

@@ -56,7 +56,7 @@ func defaultWaiter() *retry.Waiter {
 func noopDone() {}
 
 // ServerLocalBlockingQuery performs a blocking query similar to the pre-existing blockingQuery
-// method on the agent/consul.Server type. There are a few key differences.
+// method on the agent/consul.Servers type. There are a few key differences.
 //
 //  1. This function makes use of Go 1.18 generics. The function is parameterized with two
 //     types. The first is the ResultType which can be anything. Having this be parameterized

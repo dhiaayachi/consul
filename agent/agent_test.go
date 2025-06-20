@@ -5334,7 +5334,7 @@ func TestAutoConfig_Integration(t *testing.T) {
 		}
 	`
 
-	srv := StartTestAgent(t, TestAgent{Name: "TestAgent-Server", HCL: hclConfig})
+	srv := StartTestAgent(t, TestAgent{Name: "TestAgent-Servers", HCL: hclConfig})
 	defer srv.Shutdown()
 
 	testrpc.WaitForTestAgent(t, srv.RPC, "dc1", testrpc.WithToken(TestDefaultInitialManagementToken))
@@ -5516,11 +5516,11 @@ func TestSharedRPCRouter(t *testing.T) {
 	}
 
 	// this test runs both a server and client and ensures that the shared
-	// router is being used. It would be possible for the Client and Server
+	// router is being used. It would be possible for the Client and Servers
 	// types to create and use their own routers and for RPCs such as the
 	// ones used in WaitForTestAgent to succeed. However accessing the
 	// router stored on the agent ensures that Serf information from the
-	// Client/Server types are being set in the same shared rpc router.
+	// Client/Servers types are being set in the same shared rpc router.
 
 	srv := NewTestAgent(t, "")
 	defer srv.Shutdown()
@@ -5683,7 +5683,7 @@ func TestAgent_AutoReloadDoReload_WhenCertAndKeyUpdated(t *testing.T) {
 		auto_reload_config = true
 	`
 
-	srv := StartTestAgent(t, TestAgent{Name: "TestAgent-Server", HCL: hclConfig})
+	srv := StartTestAgent(t, TestAgent{Name: "TestAgent-Servers", HCL: hclConfig})
 	defer srv.Shutdown()
 
 	testrpc.WaitForTestAgent(t, srv.RPC, "dc1", testrpc.WithToken(TestDefaultInitialManagementToken))
@@ -5764,7 +5764,7 @@ func TestAgent_AutoReloadDoNotReload_WhenCaUpdated(t *testing.T) {
 		auto_reload_config = true
 	`
 
-	srv := StartTestAgent(t, TestAgent{Name: "TestAgent-Server", HCL: hclConfig})
+	srv := StartTestAgent(t, TestAgent{Name: "TestAgent-Servers", HCL: hclConfig})
 	defer srv.Shutdown()
 
 	testrpc.WaitForTestAgent(t, srv.RPC, "dc1", testrpc.WithToken(TestDefaultInitialManagementToken))
@@ -5841,7 +5841,7 @@ func TestAgent_AutoReloadDoReload_WhenCertThenKeyUpdated(t *testing.T) {
 		auto_reload_config = true
 	`), 0600))
 
-	srv := StartTestAgent(t, TestAgent{Name: "TestAgent-Server", HCL: hclConfig, configFiles: []string{configFile}})
+	srv := StartTestAgent(t, TestAgent{Name: "TestAgent-Servers", HCL: hclConfig, configFiles: []string{configFile}})
 	defer srv.Shutdown()
 
 	testrpc.WaitForTestAgent(t, srv.RPC, "dc1", testrpc.WithToken(TestDefaultInitialManagementToken))
@@ -5950,7 +5950,7 @@ func TestAgent_AutoReloadDoReload_WhenKeyThenCertUpdated(t *testing.T) {
 		auto_reload_config = true
 	`), 0600))
 
-	srv := StartTestAgent(t, TestAgent{Name: "TestAgent-Server", HCL: hclConfig, configFiles: []string{configFile}})
+	srv := StartTestAgent(t, TestAgent{Name: "TestAgent-Servers", HCL: hclConfig, configFiles: []string{configFile}})
 
 	defer srv.Shutdown()
 
@@ -6091,7 +6091,7 @@ func Test_coalesceTimerTwoPeriods(t *testing.T) {
 	`), 0600))
 
 	coalesceInterval := 100 * time.Millisecond
-	testAgent := TestAgent{Name: "TestAgent-Server", HCL: hclConfig, configFiles: []string{configFile}, Config: &config.RuntimeConfig{
+	testAgent := TestAgent{Name: "TestAgent-Servers", HCL: hclConfig, configFiles: []string{configFile}, Config: &config.RuntimeConfig{
 		AutoReloadConfigCoalesceInterval: coalesceInterval,
 	}}
 	srv := StartTestAgent(t, testAgent)
