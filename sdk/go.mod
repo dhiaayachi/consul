@@ -1,4 +1,4 @@
-module github.com/hashicorp/consul/sdk
+module github.com/dhiaayachi/consul/sdk
 
 go 1.23.8
 
