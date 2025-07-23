@@ -5,7 +5,7 @@ package catalog
 import (
 	context "context"
 
-	limiter "github.com/hashicorp/consul/agent/grpc-external/limiter"
+	limiter "github.com/dhiaayachi/consul/agent/grpc-external/limiter"
 	mock "github.com/stretchr/testify/mock"
 )
 

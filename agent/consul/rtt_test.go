@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	msgpackrpc "github.com/hashicorp/consul-net-rpc/net-rpc-msgpackrpc"
-	"github.com/hashicorp/consul-net-rpc/net/rpc"
+	msgpackrpc "github.com/dhiaayachi/consul-net-rpc/net-rpc-msgpackrpc"
+	"github.com/dhiaayachi/consul-net-rpc/net/rpc"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/internal/gossip/librtt"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/internal/gossip/librtt"
+	"github.com/dhiaayachi/consul/testrpc"
 )
 
 // verifyNodeSort makes sure the order of the nodes in the slice is the same as

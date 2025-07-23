@@ -7,8 +7,8 @@ import (
 	context "context"
 	"testing"
 
-	proto "github.com/hashicorp/consul/internal/tools/protoc-gen-grpc-clone/e2e/proto"
-	"github.com/hashicorp/consul/proto/private/prototest"
+	proto "github.com/dhiaayachi/consul/internal/tools/protoc-gen-grpc-clone/e2e/proto"
+	"github.com/dhiaayachi/consul/proto/private/prototest"
 	mock "github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 	grpc "google.golang.org/grpc"

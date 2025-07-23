@@ -15,13 +15,13 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/configentry"
-	"github.com/hashicorp/consul/agent/consul/state"
-	external "github.com/hashicorp/consul/agent/grpc-external"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/xds/accesslogs"
-	"github.com/hashicorp/consul/proto-public/pbdataplane"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/configentry"
+	"github.com/dhiaayachi/consul/agent/consul/state"
+	external "github.com/dhiaayachi/consul/agent/grpc-external"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/xds/accesslogs"
+	"github.com/dhiaayachi/consul/proto-public/pbdataplane"
 )
 
 func (s *Server) GetEnvoyBootstrapParams(ctx context.Context, req *pbdataplane.GetEnvoyBootstrapParamsRequest) (*pbdataplane.GetEnvoyBootstrapParamsResponse, error) {

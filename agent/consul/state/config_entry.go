@@ -11,13 +11,13 @@ import (
 	memdb "github.com/hashicorp/go-memdb"
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/configentry"
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/consul/discoverychain"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/lib/maps"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/configentry"
+	"github.com/dhiaayachi/consul/agent/connect"
+	"github.com/dhiaayachi/consul/agent/consul/discoverychain"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/lib"
+	"github.com/dhiaayachi/consul/lib/maps"
 )
 
 var (

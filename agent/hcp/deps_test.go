@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent/hcp/telemetry"
+	"github.com/dhiaayachi/consul/agent/hcp/telemetry"
 )
 
 type mockMetricsClient struct {

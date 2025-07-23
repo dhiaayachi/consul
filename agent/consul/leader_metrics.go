@@ -15,8 +15,8 @@ import (
 	"github.com/armon/go-metrics/prometheus"
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/logging"
+	"github.com/dhiaayachi/consul/agent/connect"
+	"github.com/dhiaayachi/consul/logging"
 )
 
 var (

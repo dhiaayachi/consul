@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/api/watch"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/api/watch"
+	"github.com/dhiaayachi/consul/sdk/testutil"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/require"
 )

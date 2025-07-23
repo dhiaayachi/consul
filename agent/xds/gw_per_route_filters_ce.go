@@ -9,7 +9,7 @@ import (
 	envoy_route_v3 "github.com/envoyproxy/go-control-plane/envoy/config/route/v3"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/structs"
 )
 
 type perRouteFilterBuilder struct {

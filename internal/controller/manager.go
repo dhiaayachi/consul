@@ -11,7 +11,7 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 )
 
 // Manager is responsible for scheduling the execution of controllers.

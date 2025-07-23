@@ -16,13 +16,13 @@ import (
 
 	"github.com/hashicorp/yamux"
 
-	msgpackrpc "github.com/hashicorp/consul-net-rpc/net-rpc-msgpackrpc"
-	"github.com/hashicorp/consul-net-rpc/net/rpc"
+	msgpackrpc "github.com/dhiaayachi/consul-net-rpc/net-rpc-msgpackrpc"
+	"github.com/dhiaayachi/consul-net-rpc/net/rpc"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/proto/private/pbcommon"
-	"github.com/hashicorp/consul/tlsutil"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/lib"
+	"github.com/dhiaayachi/consul/proto/private/pbcommon"
+	"github.com/dhiaayachi/consul/tlsutil"
 )
 
 const DefaultDialTimeout = 10 * time.Second

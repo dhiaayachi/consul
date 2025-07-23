@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/dhiaayachi/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/testrpc"
 )
 
 func testGRPCStreamingWorking(t *testing.T, config string) {

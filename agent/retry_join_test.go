@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/sdk/testutil"
 	"github.com/stretchr/testify/require"
 )
 

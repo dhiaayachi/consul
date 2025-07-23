@@ -12,12 +12,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/mod/semver"
 
-	"github.com/hashicorp/consul/api"
-	libassert "github.com/hashicorp/consul/test/integration/consul-container/libs/assert"
-	libcluster "github.com/hashicorp/consul/test/integration/consul-container/libs/cluster"
-	libservice "github.com/hashicorp/consul/test/integration/consul-container/libs/service"
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/topology"
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/utils"
+	"github.com/dhiaayachi/consul/api"
+	libassert "github.com/dhiaayachi/consul/test/integration/consul-container/libs/assert"
+	libcluster "github.com/dhiaayachi/consul/test/integration/consul-container/libs/cluster"
+	libservice "github.com/dhiaayachi/consul/test/integration/consul-container/libs/service"
+	"github.com/dhiaayachi/consul/test/integration/consul-container/libs/topology"
+	"github.com/dhiaayachi/consul/test/integration/consul-container/libs/utils"
 )
 
 // TestAccessLogs Summary

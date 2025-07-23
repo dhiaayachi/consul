@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/internal/resource"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 )
 
 func TestIsRetiredType(t *testing.T) {

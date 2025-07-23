@@ -12,7 +12,7 @@ import (
 	"github.com/hashicorp/raft"
 	"github.com/hashicorp/raft-wal/verifier"
 
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/structs"
 )
 
 type logVerificationChunkingShim struct {

@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/consul/ipaddr"
+	"github.com/dhiaayachi/consul/ipaddr"
 
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/structs"
 )
 
 const sidecarIDSuffix = structs.SidecarProxySuffix

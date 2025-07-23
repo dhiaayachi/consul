@@ -26,13 +26,13 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/hashicorp/consul-net-rpc/go-msgpack/codec"
+	"github.com/dhiaayachi/consul-net-rpc/go-msgpack/codec"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/types"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/cache"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/lib"
+	"github.com/dhiaayachi/consul/types"
 )
 
 type MessageType uint8

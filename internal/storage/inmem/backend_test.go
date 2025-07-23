@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/internal/storage"
-	"github.com/hashicorp/consul/internal/storage/conformance"
-	"github.com/hashicorp/consul/internal/storage/inmem"
+	"github.com/dhiaayachi/consul/internal/storage"
+	"github.com/dhiaayachi/consul/internal/storage/conformance"
+	"github.com/dhiaayachi/consul/internal/storage/inmem"
 )
 
 func TestBackend_Conformance(t *testing.T) {

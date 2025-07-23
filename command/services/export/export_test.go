@@ -10,8 +10,8 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/dhiaayachi/consul/agent"
+	"github.com/dhiaayachi/consul/testrpc"
 )
 
 func TestExportCommand(t *testing.T) {

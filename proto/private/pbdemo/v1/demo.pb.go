@@ -13,7 +13,7 @@
 package demov1
 
 import (
-	_ "github.com/hashicorp/consul/proto-public/pbresource"
+	_ "github.com/dhiaayachi/consul/proto-public/pbresource"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

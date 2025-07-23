@@ -8,9 +8,9 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/hashicorp/consul/internal/controller"
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/internal/controller"
+	"github.com/dhiaayachi/consul/internal/resource"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 )
 
 // MapOwner implements a DependencyMapper that returns the updated resource's owner.

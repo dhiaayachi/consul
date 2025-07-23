@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/structs"
 )
 
 func (s *HTTPHandlers) parseEntMeta(req *http.Request, entMeta *acl.EnterpriseMeta) error {

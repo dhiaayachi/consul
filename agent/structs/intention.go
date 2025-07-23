@@ -16,9 +16,9 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/mitchellh/hashstructure"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/lib"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/cache"
+	"github.com/dhiaayachi/consul/lib"
 
 	"golang.org/x/crypto/blake2b"
 )

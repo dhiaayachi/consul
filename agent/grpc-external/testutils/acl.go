@@ -8,10 +8,10 @@ import (
 
 	"github.com/hashicorp/go-uuid"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/acl/resolver"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/acl/resolver"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/sdk/testutil"
 )
 
 func ACLAnonymous(t testutil.TestingTB) resolver.Result {

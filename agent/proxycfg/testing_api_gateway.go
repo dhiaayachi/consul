@@ -8,10 +8,10 @@ import (
 
 	"github.com/mitchellh/go-testing-interface"
 
-	"github.com/hashicorp/consul/agent/configentry"
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/consul/discoverychain"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/configentry"
+	"github.com/dhiaayachi/consul/agent/connect"
+	"github.com/dhiaayachi/consul/agent/consul/discoverychain"
+	"github.com/dhiaayachi/consul/agent/structs"
 )
 
 func TestConfigSnapshotAPIGateway(

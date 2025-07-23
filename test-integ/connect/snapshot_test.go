@@ -8,18 +8,18 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/test-integ/topoutil"
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/utils"
-	"github.com/hashicorp/consul/testing/deployer/sprawl/sprawltest"
-	"github.com/hashicorp/consul/testing/deployer/topology"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/test-integ/topoutil"
+	"github.com/dhiaayachi/consul/test/integration/consul-container/libs/utils"
+	"github.com/dhiaayachi/consul/testing/deployer/sprawl/sprawltest"
+	"github.com/dhiaayachi/consul/testing/deployer/topology"
 )
 
 // Test_Snapshot_Restore_Agentless verifies consul agent can continue
 // to push envoy config after restoring from a snapshot.
 //
 //   - This test is to detect server agent frozen after restoring from a snapshot
-//     (https://github.com/hashicorp/consul/pull/18636)
+//     (https://github.com/dhiaayachi/consul/pull/18636)
 //
 //   - This bug only appeared in agentless mode
 //

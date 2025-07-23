@@ -14,14 +14,14 @@ import (
 
 	"github.com/hashicorp/go-memdb"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/configentry"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/lib/maps"
-	"github.com/hashicorp/consul/lib/stringslice"
-	"github.com/hashicorp/consul/types"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/configentry"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/lib"
+	"github.com/dhiaayachi/consul/lib/maps"
+	"github.com/dhiaayachi/consul/lib/stringslice"
+	"github.com/dhiaayachi/consul/types"
 )
 
 const (
@@ -448,7 +448,7 @@ func (s *Store) ensureNodeTxn(tx WriteTxn, idx uint64, preserveIndexes bool, nod
 		}
 	}
 	// TODO: else Node.ID == "" should be forbidden in future Consul releases
-	// See https://github.com/hashicorp/consul/pull/3983 for context
+	// See https://github.com/dhiaayachi/consul/pull/3983 for context
 
 	// Check for an existing node by name to support nodes with no IDs.
 	if n == nil {
@@ -466,7 +466,7 @@ func (s *Store) ensureNodeTxn(tx WriteTxn, idx uint64, preserveIndexes bool, nod
 		}
 		// WARNING, for compatibility reasons with tests, we do not check
 		// for case insensitive matches, which may lead to DB corruption
-		// See https://github.com/hashicorp/consul/pull/3983 for context
+		// See https://github.com/dhiaayachi/consul/pull/3983 for context
 	}
 
 	// Get the indexes.
@@ -2949,7 +2949,7 @@ func checkServiceNodesTxn(tx ReadTxn, ws memdb.WatchSet, serviceName string, con
 	// thousands of watch chans for large services which may need many goroutines.
 	// It also avoids the performance cliff that is hit when watchLimit is hit
 	// (~682 service instances). See
-	// https://github.com/hashicorp/consul/issues/4984
+	// https://github.com/dhiaayachi/consul/issues/4984
 	watchOptimized := false
 	if len(serviceNames) > 0 {
 		// Assume optimization will work since it really should at this point. For

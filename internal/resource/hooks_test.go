@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/internal/resource/demo"
-	rtest "github.com/hashicorp/consul/internal/resource/resourcetest"
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	pbdemo "github.com/hashicorp/consul/proto/private/pbdemo/v2"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/internal/resource"
+	"github.com/dhiaayachi/consul/internal/resource/demo"
+	rtest "github.com/dhiaayachi/consul/internal/resource/resourcetest"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
+	pbdemo "github.com/dhiaayachi/consul/proto/private/pbdemo/v2"
 	"github.com/stretchr/testify/require"
 )
 

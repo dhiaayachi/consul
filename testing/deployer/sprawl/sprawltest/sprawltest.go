@@ -13,17 +13,17 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/sdk/testutil"
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-multierror"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	"github.com/hashicorp/consul/testing/deployer/sprawl"
-	"github.com/hashicorp/consul/testing/deployer/sprawl/internal/runner"
-	"github.com/hashicorp/consul/testing/deployer/topology"
+	"github.com/dhiaayachi/consul/testing/deployer/sprawl"
+	"github.com/dhiaayachi/consul/testing/deployer/sprawl/internal/runner"
+	"github.com/dhiaayachi/consul/testing/deployer/topology"
 )
 
 // TODO(rb): move comments to doc.go

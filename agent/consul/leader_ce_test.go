@@ -6,7 +6,7 @@
 package consul
 
 import (
-	"github.com/hashicorp/consul/internal/gossip/libserf"
+	"github.com/dhiaayachi/consul/internal/gossip/libserf"
 )
 
 func updateSerfTags(s *Server, key, value string) {

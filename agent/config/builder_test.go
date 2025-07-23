@@ -15,8 +15,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	hcpconfig "github.com/hashicorp/consul/agent/hcp/config"
-	"github.com/hashicorp/consul/types"
+	hcpconfig "github.com/dhiaayachi/consul/agent/hcp/config"
+	"github.com/dhiaayachi/consul/types"
 )
 
 func TestLoad(t *testing.T) {

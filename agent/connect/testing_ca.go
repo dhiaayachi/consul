@@ -20,8 +20,8 @@ import (
 	"github.com/hashicorp/go-uuid"
 	"github.com/mitchellh/go-testing-interface"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/structs"
 )
 
 // TestClusterID is the Consul cluster ID for testing.

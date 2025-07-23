@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hashicorp/consul/acl"
+	"github.com/dhiaayachi/consul/acl"
 )
 
 // Request contains the information necessary to reconcile a config entry.

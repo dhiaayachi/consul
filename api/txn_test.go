@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/sdk/testutil/retry"
+	"github.com/dhiaayachi/consul/sdk/testutil/retry"
 
 	"github.com/hashicorp/go-uuid"
 

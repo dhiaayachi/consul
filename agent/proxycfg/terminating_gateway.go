@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"strings"
 
-	cachetype "github.com/hashicorp/consul/agent/cache-types"
-	"github.com/hashicorp/consul/agent/leafcert"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/proto/private/pbpeering"
+	cachetype "github.com/dhiaayachi/consul/agent/cache-types"
+	"github.com/dhiaayachi/consul/agent/leafcert"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/proto/private/pbpeering"
 )
 
 type handlerTerminatingGateway struct {

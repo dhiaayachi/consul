@@ -6,9 +6,9 @@ package controller
 import (
 	"fmt"
 
-	"github.com/hashicorp/consul/internal/controller/cache/index"
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/internal/controller/cache/index"
+	"github.com/dhiaayachi/consul/internal/resource"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 )
 
 type watch struct {

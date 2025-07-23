@@ -1,7 +1,7 @@
 package structs
 
 import (
-	"github.com/hashicorp/consul/acl"
+	"github.com/dhiaayachi/consul/acl"
 )
 
 type LLMAgentConfigEntry struct {

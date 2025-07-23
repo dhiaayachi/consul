@@ -15,12 +15,12 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/acl/resolver"
-	external "github.com/hashicorp/consul/agent/grpc-external"
-	"github.com/hashicorp/consul/agent/grpc-external/testutils"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/proto-public/pbdataplane"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/acl/resolver"
+	external "github.com/dhiaayachi/consul/agent/grpc-external"
+	"github.com/dhiaayachi/consul/agent/grpc-external/testutils"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/proto-public/pbdataplane"
 )
 
 const (

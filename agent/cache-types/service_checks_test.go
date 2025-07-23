@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/agent/checks"
-	"github.com/hashicorp/consul/agent/local"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/token"
-	"github.com/hashicorp/consul/types"
+	"github.com/dhiaayachi/consul/agent/cache"
+	"github.com/dhiaayachi/consul/agent/checks"
+	"github.com/dhiaayachi/consul/agent/local"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/token"
+	"github.com/dhiaayachi/consul/types"
 	"github.com/hashicorp/go-memdb"
 	"github.com/stretchr/testify/require"
 )

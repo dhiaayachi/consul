@@ -3,7 +3,7 @@
 
 package versiontest
 
-import "github.com/hashicorp/consul/version"
+import "github.com/dhiaayachi/consul/version"
 
 // IsEnterprise returns true if the current build is a Consul Enterprise build.
 //

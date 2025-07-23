@@ -11,13 +11,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	msgpackrpc "github.com/hashicorp/consul-net-rpc/net-rpc-msgpackrpc"
-	"github.com/hashicorp/consul-net-rpc/net/rpc"
+	msgpackrpc "github.com/dhiaayachi/consul-net-rpc/net-rpc-msgpackrpc"
+	"github.com/dhiaayachi/consul-net-rpc/net/rpc"
 
-	"github.com/hashicorp/consul/agent/pool"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/testrpc"
-	"github.com/hashicorp/consul/tlsutil"
+	"github.com/dhiaayachi/consul/agent/pool"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/testrpc"
+	"github.com/dhiaayachi/consul/tlsutil"
 )
 
 func rpcClient(t *testing.T, s *Server) rpc.ClientCodec {

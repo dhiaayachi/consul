@@ -11,10 +11,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/consul/fsm"
-	"github.com/hashicorp/consul/agent/consul/state"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/connect"
+	"github.com/dhiaayachi/consul/agent/consul/fsm"
+	"github.com/dhiaayachi/consul/agent/consul/state"
+	"github.com/dhiaayachi/consul/agent/structs"
 )
 
 type consulCAMockDelegate struct {

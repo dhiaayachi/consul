@@ -4,7 +4,7 @@
 package cache
 
 import (
-	"github.com/hashicorp/consul/agent/cacheshim"
+	"github.com/dhiaayachi/consul/agent/cacheshim"
 )
 
 // Request is a cacheable request.

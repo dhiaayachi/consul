@@ -21,9 +21,9 @@ import (
 	"github.com/teris-io/shortid"
 	"github.com/testcontainers/testcontainers-go"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/utils"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/sdk/testutil/retry"
+	"github.com/dhiaayachi/consul/test/integration/consul-container/libs/utils"
 )
 
 // Cluster provides an interface for creating and controlling a Consul cluster

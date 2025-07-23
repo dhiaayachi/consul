@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/consul/command/acl/policy"
-	"github.com/hashicorp/consul/command/flags"
+	"github.com/dhiaayachi/consul/command/acl/policy"
+	"github.com/dhiaayachi/consul/command/flags"
 	"github.com/mitchellh/cli"
 )
 

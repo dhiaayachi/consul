@@ -15,7 +15,7 @@ import (
 	"github.com/hashicorp/go-hclog"
 	hcptelemetry "github.com/hashicorp/hcp-sdk-go/clients/cloud-consul-telemetry-gateway/preview/2023-04-14/client/consul_telemetry_service"
 
-	"github.com/hashicorp/consul/agent/hcp/config"
+	"github.com/dhiaayachi/consul/agent/hcp/config"
 )
 
 var (

@@ -8,8 +8,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/hashicorp/consul/testing/deployer/topology"
-	"github.com/hashicorp/consul/testing/deployer/util"
+	"github.com/dhiaayachi/consul/testing/deployer/topology"
+	"github.com/dhiaayachi/consul/testing/deployer/util"
 )
 
 const proxyInternalPort = 80

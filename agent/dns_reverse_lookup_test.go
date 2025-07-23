@@ -5,8 +5,8 @@ package agent
 
 import (
 	"context"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/testrpc"
 	"github.com/miekg/dns"
 	"github.com/stretchr/testify/require"
 	"testing"

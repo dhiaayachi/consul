@@ -23,13 +23,13 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	"github.com/hashicorp/consul/testing/deployer/sprawl/internal/runner"
-	"github.com/hashicorp/consul/testing/deployer/sprawl/internal/secrets"
-	"github.com/hashicorp/consul/testing/deployer/sprawl/internal/tfgen"
-	"github.com/hashicorp/consul/testing/deployer/topology"
-	"github.com/hashicorp/consul/testing/deployer/util"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/testing/deployer/sprawl/internal/runner"
+	"github.com/dhiaayachi/consul/testing/deployer/sprawl/internal/secrets"
+	"github.com/dhiaayachi/consul/testing/deployer/sprawl/internal/tfgen"
+	"github.com/dhiaayachi/consul/testing/deployer/topology"
+	"github.com/dhiaayachi/consul/testing/deployer/util"
 )
 
 // TODO: manage workdir externally without chdir

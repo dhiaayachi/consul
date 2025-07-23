@@ -12,13 +12,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
-	"github.com/hashicorp/consul/test-integ/topoutil"
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/utils"
-	"github.com/hashicorp/consul/testing/deployer/sprawl"
-	"github.com/hashicorp/consul/testing/deployer/sprawl/sprawltest"
-	"github.com/hashicorp/consul/testing/deployer/topology"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/sdk/testutil/retry"
+	"github.com/dhiaayachi/consul/test-integ/topoutil"
+	"github.com/dhiaayachi/consul/test/integration/consul-container/libs/utils"
+	"github.com/dhiaayachi/consul/testing/deployer/sprawl"
+	"github.com/dhiaayachi/consul/testing/deployer/sprawl/sprawltest"
+	"github.com/dhiaayachi/consul/testing/deployer/topology"
 )
 
 // commonTopo helps create a shareable topology configured to represent
@@ -418,7 +418,7 @@ func (ct *commonTopo) addMeshGateways(c *topology.Cluster) {
 		c.Nodes = topology.MergeSlices(c.Nodes, nodes)
 		// for services exported in the same cluster between partitions, we need
 		// to export the mesh gateway (but not for peering)
-		// https://github.com/hashicorp/consul/pull/19052
+		// https://github.com/dhiaayachi/consul/pull/19052
 		consumers := []api.ServiceConsumer{}
 		for _, cp := range c.Partitions {
 			if cp.Name == p.Name {

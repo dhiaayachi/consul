@@ -7,8 +7,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/hashicorp/consul/agent/cacheshim"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/cacheshim"
+	"github.com/dhiaayachi/consul/agent/structs"
 )
 
 // NewCachedRootsReader returns a RootsReader that sources data from the agent cache.

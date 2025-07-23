@@ -8,11 +8,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/internal/resource/resourcetest"
-	pbmulticluster "github.com/hashicorp/consul/proto-public/pbmulticluster/v2"
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	"github.com/hashicorp/consul/version/versiontest"
+	"github.com/dhiaayachi/consul/internal/resource"
+	"github.com/dhiaayachi/consul/internal/resource/resourcetest"
+	pbmulticluster "github.com/dhiaayachi/consul/proto-public/pbmulticluster/v2"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/version/versiontest"
 )
 
 func validNamespaceExportedServicesWithPeer(peerName string) *pbmulticluster.NamespaceExportedServices {

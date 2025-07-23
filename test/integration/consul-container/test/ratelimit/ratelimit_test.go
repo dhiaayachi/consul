@@ -10,14 +10,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/sdk/testutil/retry"
 	"github.com/stretchr/testify/require"
 
-	libcluster "github.com/hashicorp/consul/test/integration/consul-container/libs/cluster"
-	libtopology "github.com/hashicorp/consul/test/integration/consul-container/libs/topology"
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/utils"
+	libcluster "github.com/dhiaayachi/consul/test/integration/consul-container/libs/cluster"
+	libtopology "github.com/dhiaayachi/consul/test/integration/consul-container/libs/topology"
+	"github.com/dhiaayachi/consul/test/integration/consul-container/libs/utils"
 )
 
 const (

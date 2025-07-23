@@ -6,7 +6,7 @@ package resource
 import (
 	"sort"
 
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 )
 
 type sectionRefKey struct {

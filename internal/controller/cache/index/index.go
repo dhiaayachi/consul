@@ -4,7 +4,7 @@
 package index
 
 import (
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 	iradix "github.com/hashicorp/go-immutable-radix/v2"
 )
 

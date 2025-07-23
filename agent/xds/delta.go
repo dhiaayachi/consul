@@ -26,17 +26,17 @@ import (
 	"github.com/hashicorp/go-hclog"
 	goversion "github.com/hashicorp/go-version"
 
-	"github.com/hashicorp/consul/agent/envoyextensions"
-	external "github.com/hashicorp/consul/agent/grpc-external"
-	"github.com/hashicorp/consul/agent/grpc-external/limiter"
-	"github.com/hashicorp/consul/agent/proxycfg"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/xds/configfetcher"
-	"github.com/hashicorp/consul/agent/xds/extensionruntime"
-	"github.com/hashicorp/consul/envoyextensions/extensioncommon"
-	"github.com/hashicorp/consul/envoyextensions/xdscommon"
-	"github.com/hashicorp/consul/logging"
-	"github.com/hashicorp/consul/version"
+	"github.com/dhiaayachi/consul/agent/envoyextensions"
+	external "github.com/dhiaayachi/consul/agent/grpc-external"
+	"github.com/dhiaayachi/consul/agent/grpc-external/limiter"
+	"github.com/dhiaayachi/consul/agent/proxycfg"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/xds/configfetcher"
+	"github.com/dhiaayachi/consul/agent/xds/extensionruntime"
+	"github.com/dhiaayachi/consul/envoyextensions/extensioncommon"
+	"github.com/dhiaayachi/consul/envoyextensions/xdscommon"
+	"github.com/dhiaayachi/consul/logging"
+	"github.com/dhiaayachi/consul/version"
 )
 
 var errOverwhelmed = status.Error(codes.ResourceExhausted, "this server has too many xDS streams open, please try another")

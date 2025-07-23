@@ -14,8 +14,8 @@ import (
 	"github.com/mitchellh/cli"
 	"golang.org/x/exp/maps"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/command/flags"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/command/flags"
 )
 
 func New(ui cli.Ui) *cmd {

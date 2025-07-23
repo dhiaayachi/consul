@@ -6,7 +6,7 @@ package controller
 import (
 	"context"
 
-	"github.com/hashicorp/consul/agent/consul/controller/queue"
+	"github.com/dhiaayachi/consul/agent/consul/controller/queue"
 )
 
 // CustomDependencyMapper is called when an Event occurs to determine which of the

@@ -4,7 +4,7 @@
 package types
 
 import (
-	"github.com/hashicorp/consul/internal/resource"
+	"github.com/dhiaayachi/consul/internal/resource"
 )
 
 func Register(r resource.Registry) {

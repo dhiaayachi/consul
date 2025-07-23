@@ -7,15 +7,15 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hashicorp/consul/proto/private/prototest"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/proto/private/prototest"
+	"github.com/dhiaayachi/consul/sdk/testutil"
 
 	"github.com/hashicorp/go-memdb"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/connect"
+	"github.com/dhiaayachi/consul/agent/structs"
 )
 
 func TestStore_CAConfig(t *testing.T) {
@@ -151,7 +151,7 @@ func TestStore_CAConfig_Snapshot_Restore(t *testing.T) {
 }
 
 // Make sure we handle the case of a leftover blank CA config that
-// got stuck in a snapshot, as in https://github.com/hashicorp/consul/issues/4954
+// got stuck in a snapshot, as in https://github.com/dhiaayachi/consul/issues/4954
 func TestStore_CAConfig_Snapshot_Restore_BlankConfig(t *testing.T) {
 	s := testStateStore(t)
 	before := &structs.CAConfiguration{}

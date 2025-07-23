@@ -11,9 +11,9 @@ import (
 	"github.com/armon/go-metrics"
 	"github.com/armon/go-metrics/prometheus"
 
-	cachetype "github.com/hashicorp/consul/agent/cache-types"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/internal/dnsutil"
+	cachetype "github.com/dhiaayachi/consul/agent/cache-types"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/internal/dnsutil"
 )
 
 var CatalogCounters = []prometheus.CounterDefinition{
@@ -465,7 +465,7 @@ RETRY_ONCE:
 
 	// TODO: The NodeServices object in IndexedNodeServices is a pointer to
 	// something that's created for each request by the state store way down
-	// in https://github.com/hashicorp/consul/blob/v1.0.4/agent/consul/state/catalog.go#L953-L963.
+	// in https://github.com/dhiaayachi/consul/blob/v1.0.4/agent/consul/state/catalog.go#L953-L963.
 	// Since this isn't a pointer to a real state store object, it's safe to
 	// modify out.NodeServices.Services in the loop below without making a
 	// copy here. Same for the Tags in each service entry, since that was

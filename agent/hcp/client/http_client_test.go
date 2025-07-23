@@ -8,7 +8,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/hashicorp/consul/agent/hcp/config"
+	"github.com/dhiaayachi/consul/agent/hcp/config"
 	"github.com/stretchr/testify/require"
 )
 

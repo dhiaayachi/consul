@@ -15,12 +15,12 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/hashicorp/consul/acl/resolver"
-	svc "github.com/hashicorp/consul/agent/grpc-external/services/resource"
-	svctest "github.com/hashicorp/consul/agent/grpc-external/services/resource/testing"
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/internal/resource/demo"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/acl/resolver"
+	svc "github.com/dhiaayachi/consul/agent/grpc-external/services/resource"
+	svctest "github.com/dhiaayachi/consul/agent/grpc-external/services/resource/testing"
+	"github.com/dhiaayachi/consul/internal/resource"
+	"github.com/dhiaayachi/consul/internal/resource/demo"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 )
 
 func TestWriteStatus_ACL(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/consul/command/flags"
+	"github.com/dhiaayachi/consul/command/flags"
 	"github.com/mitchellh/cli"
 )
 

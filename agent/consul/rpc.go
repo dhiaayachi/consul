@@ -26,19 +26,19 @@ import (
 	"github.com/hashicorp/yamux"
 	"google.golang.org/grpc"
 
-	msgpackrpc "github.com/hashicorp/consul-net-rpc/net-rpc-msgpackrpc"
+	msgpackrpc "github.com/dhiaayachi/consul-net-rpc/net-rpc-msgpackrpc"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/blockingquery"
-	"github.com/hashicorp/consul/agent/consul/rate"
-	"github.com/hashicorp/consul/agent/consul/state"
-	"github.com/hashicorp/consul/agent/consul/wanfed"
-	"github.com/hashicorp/consul/agent/metadata"
-	"github.com/hashicorp/consul/agent/pool"
-	"github.com/hashicorp/consul/agent/rpc/middleware"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/logging"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/blockingquery"
+	"github.com/dhiaayachi/consul/agent/consul/rate"
+	"github.com/dhiaayachi/consul/agent/consul/state"
+	"github.com/dhiaayachi/consul/agent/consul/wanfed"
+	"github.com/dhiaayachi/consul/agent/metadata"
+	"github.com/dhiaayachi/consul/agent/pool"
+	"github.com/dhiaayachi/consul/agent/rpc/middleware"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/lib"
+	"github.com/dhiaayachi/consul/logging"
 )
 
 var RPCCounters = []prometheus.CounterDefinition{

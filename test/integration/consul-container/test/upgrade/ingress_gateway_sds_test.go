@@ -12,13 +12,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/dhiaayachi/consul/api"
+	libassert "github.com/dhiaayachi/consul/test/integration/consul-container/libs/assert"
+	libcluster "github.com/dhiaayachi/consul/test/integration/consul-container/libs/cluster"
+	libservice "github.com/dhiaayachi/consul/test/integration/consul-container/libs/service"
+	"github.com/dhiaayachi/consul/test/integration/consul-container/libs/topology"
+	"github.com/dhiaayachi/consul/test/integration/consul-container/libs/utils"
 	"github.com/docker/go-connections/nat"
-	"github.com/hashicorp/consul/api"
-	libassert "github.com/hashicorp/consul/test/integration/consul-container/libs/assert"
-	libcluster "github.com/hashicorp/consul/test/integration/consul-container/libs/cluster"
-	libservice "github.com/hashicorp/consul/test/integration/consul-container/libs/service"
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/topology"
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/utils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/testcontainers/testcontainers-go"
@@ -70,7 +70,7 @@ func TestIngressGateway_SDS_UpgradeToTarget_fromLatest(t *testing.T) {
 	const nameS2 = libservice.StaticServer2ServiceName
 
 	// this must be one of the externally-mapped ports from
-	// https://github.com/hashicorp/consul/blob/c5e729e86576771c4c22c6da1e57aaa377319323/test/integration/consul-container/libs/cluster/container.go#L521-L525
+	// https://github.com/dhiaayachi/consul/blob/c5e729e86576771c4c22c6da1e57aaa377319323/test/integration/consul-container/libs/cluster/container.go#L521-L525
 	const (
 		portWildcard   = 8080
 		portOther      = 9999

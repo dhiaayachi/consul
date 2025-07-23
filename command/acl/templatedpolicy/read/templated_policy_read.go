@@ -10,9 +10,9 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/command/acl/templatedpolicy"
-	"github.com/hashicorp/consul/command/flags"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/command/acl/templatedpolicy"
+	"github.com/dhiaayachi/consul/command/flags"
 )
 
 const (

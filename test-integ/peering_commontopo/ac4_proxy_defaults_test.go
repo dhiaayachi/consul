@@ -13,8 +13,8 @@ import (
 
 	"github.com/hashicorp/go-cleanhttp"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/testing/deployer/topology"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/testing/deployer/topology"
 )
 
 type ac4ProxyDefaultsSuite struct {

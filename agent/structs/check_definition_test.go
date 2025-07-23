@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/dhiaayachi/consul/api"
 	fuzz "github.com/google/gofuzz"
-	"github.com/hashicorp/consul/api"
 	"github.com/mitchellh/reflectwalk"
 	"github.com/stretchr/testify/require"
 )

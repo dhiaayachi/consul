@@ -12,16 +12,16 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/consul/acl/resolver"
-	svc "github.com/hashicorp/consul/agent/grpc-external/services/resource"
-	svctest "github.com/hashicorp/consul/agent/grpc-external/services/resource/testing"
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/internal/resource/demo"
-	rtest "github.com/hashicorp/consul/internal/resource/resourcetest"
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	pbdemov1 "github.com/hashicorp/consul/proto/private/pbdemo/v1"
-	pbdemov2 "github.com/hashicorp/consul/proto/private/pbdemo/v2"
-	"github.com/hashicorp/consul/proto/private/prototest"
+	"github.com/dhiaayachi/consul/acl/resolver"
+	svc "github.com/dhiaayachi/consul/agent/grpc-external/services/resource"
+	svctest "github.com/dhiaayachi/consul/agent/grpc-external/services/resource/testing"
+	"github.com/dhiaayachi/consul/internal/resource"
+	"github.com/dhiaayachi/consul/internal/resource/demo"
+	rtest "github.com/dhiaayachi/consul/internal/resource/resourcetest"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
+	pbdemov1 "github.com/dhiaayachi/consul/proto/private/pbdemo/v1"
+	pbdemov2 "github.com/dhiaayachi/consul/proto/private/pbdemo/v2"
+	"github.com/dhiaayachi/consul/proto/private/prototest"
 )
 
 func TestWrite_InputValidation(t *testing.T) {

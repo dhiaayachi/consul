@@ -17,10 +17,10 @@ import (
 	"github.com/hashicorp/serf/coordinate"
 	"github.com/hashicorp/serf/serf"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/internal/gossip/librtt"
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/types"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/internal/gossip/librtt"
+	"github.com/dhiaayachi/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/types"
 )
 
 type mockCluster struct {

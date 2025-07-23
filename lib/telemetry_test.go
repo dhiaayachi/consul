@@ -9,7 +9,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hashicorp/consul/logging"
+	"github.com/dhiaayachi/consul/logging"
 
 	"github.com/armon/go-metrics"
 	"github.com/hashicorp/go-multierror"

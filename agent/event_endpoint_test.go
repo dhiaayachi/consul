@@ -14,9 +14,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/sdk/testutil/retry"
+	"github.com/dhiaayachi/consul/testrpc"
 )
 
 func TestEventFire(t *testing.T) {

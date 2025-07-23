@@ -31,18 +31,18 @@ import (
 
 	"github.com/hashicorp/go-cleanhttp"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/agent/config"
-	"github.com/hashicorp/consul/agent/consul"
-	"github.com/hashicorp/consul/agent/consul/rate"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/uiserver"
-	"github.com/hashicorp/consul/api"
-	resourcehttp "github.com/hashicorp/consul/internal/resource/http"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/logging"
-	"github.com/hashicorp/consul/proto/private/pbcommon"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/cache"
+	"github.com/dhiaayachi/consul/agent/config"
+	"github.com/dhiaayachi/consul/agent/consul"
+	"github.com/dhiaayachi/consul/agent/consul/rate"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/uiserver"
+	"github.com/dhiaayachi/consul/api"
+	resourcehttp "github.com/dhiaayachi/consul/internal/resource/http"
+	"github.com/dhiaayachi/consul/lib"
+	"github.com/dhiaayachi/consul/logging"
+	"github.com/dhiaayachi/consul/proto/private/pbcommon"
 )
 
 const (

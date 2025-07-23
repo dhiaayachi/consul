@@ -11,7 +11,7 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/api"
+	"github.com/dhiaayachi/consul/api"
 )
 
 const (

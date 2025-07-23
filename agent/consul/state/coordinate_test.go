@@ -13,9 +13,9 @@ import (
 	"github.com/hashicorp/go-memdb"
 	"github.com/hashicorp/serf/coordinate"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/internal/gossip/librtt"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/internal/gossip/librtt"
+	"github.com/dhiaayachi/consul/sdk/testutil"
 )
 
 // TODO(partitions): test partitioned nodes here

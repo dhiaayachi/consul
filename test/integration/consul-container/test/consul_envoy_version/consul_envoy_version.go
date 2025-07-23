@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hashicorp/consul/envoyextensions/xdscommon"
+	"github.com/dhiaayachi/consul/envoyextensions/xdscommon"
 )
 
 type consulEnvoyVersions struct {

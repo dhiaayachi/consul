@@ -3,7 +3,7 @@
 package mockpbserverdiscovery
 
 import (
-	pbserverdiscovery "github.com/hashicorp/consul/proto-public/pbserverdiscovery"
+	pbserverdiscovery "github.com/dhiaayachi/consul/proto-public/pbserverdiscovery"
 	mock "github.com/stretchr/testify/mock"
 )
 

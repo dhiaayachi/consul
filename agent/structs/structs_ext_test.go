@@ -6,8 +6,8 @@ package structs_test
 import (
 	"testing"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/proto/private/pbpeering"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/proto/private/pbpeering"
 	"github.com/stretchr/testify/require"
 )
 

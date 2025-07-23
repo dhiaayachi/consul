@@ -10,8 +10,8 @@ import (
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/internal/resource"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 )
 
 func Generate(gp *protogen.Plugin) error {
@@ -133,7 +133,7 @@ var (
 package {{.PackageName}}
 
 import (	
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 )
 
 const (

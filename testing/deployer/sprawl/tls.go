@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/hashicorp/consul/testing/deployer/sprawl/internal/secrets"
-	"github.com/hashicorp/consul/testing/deployer/topology"
+	"github.com/dhiaayachi/consul/testing/deployer/sprawl/internal/secrets"
+	"github.com/dhiaayachi/consul/testing/deployer/topology"
 )
 
 const (

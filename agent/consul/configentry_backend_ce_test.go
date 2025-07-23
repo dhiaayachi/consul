@@ -13,9 +13,9 @@ import (
 	"github.com/stretchr/testify/require"
 	gogrpc "google.golang.org/grpc"
 
-	"github.com/hashicorp/consul/proto/private/pbconfigentry"
-	"github.com/hashicorp/consul/sdk/freeport"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/dhiaayachi/consul/proto/private/pbconfigentry"
+	"github.com/dhiaayachi/consul/sdk/freeport"
+	"github.com/dhiaayachi/consul/testrpc"
 )
 
 func TestConfigEntryBackend_RejectsPartition(t *testing.T) {

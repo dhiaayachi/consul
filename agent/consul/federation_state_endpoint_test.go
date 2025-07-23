@@ -11,15 +11,15 @@ import (
 	uuid "github.com/hashicorp/go-uuid"
 	"github.com/stretchr/testify/require"
 
-	msgpackrpc "github.com/hashicorp/consul-net-rpc/net-rpc-msgpackrpc"
-	"github.com/hashicorp/consul-net-rpc/net/rpc"
+	msgpackrpc "github.com/dhiaayachi/consul-net-rpc/net-rpc-msgpackrpc"
+	"github.com/dhiaayachi/consul-net-rpc/net/rpc"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
-	"github.com/hashicorp/consul/testrpc"
-	"github.com/hashicorp/consul/types"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/sdk/testutil/retry"
+	"github.com/dhiaayachi/consul/testrpc"
+	"github.com/dhiaayachi/consul/types"
 )
 
 func TestFederationState_Apply_Upsert(t *testing.T) {

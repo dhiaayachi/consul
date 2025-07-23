@@ -18,8 +18,8 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/agent/config"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/agent/config"
+	"github.com/dhiaayachi/consul/sdk/testutil"
 )
 
 func TestUIServerIndex(t *testing.T) {

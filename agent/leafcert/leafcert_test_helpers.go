@@ -17,10 +17,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/agent/cacheshim"
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/agent/cacheshim"
+	"github.com/dhiaayachi/consul/agent/connect"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/sdk/testutil"
 )
 
 // NewTestManager returns a *Manager that is pre-configured to use a mock RPC

@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/agent"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/sdk/testutil"
 	"github.com/mitchellh/cli"
 	"github.com/stretchr/testify/require"
 )

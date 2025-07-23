@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
+	"github.com/dhiaayachi/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/sdk/testutil/retry"
 )
 
 func createTestLock(t testutil.TestingTB, c *Client, key string) (*Lock, *Session) {

@@ -10,9 +10,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/command/flags"
-	"github.com/hashicorp/consul/command/intention"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/command/flags"
+	"github.com/dhiaayachi/consul/command/intention"
 	"github.com/mitchellh/cli"
 )
 

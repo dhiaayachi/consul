@@ -13,20 +13,20 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	msgpackrpc "github.com/hashicorp/consul-net-rpc/net-rpc-msgpackrpc"
-	"github.com/hashicorp/consul-net-rpc/net/rpc"
+	msgpackrpc "github.com/dhiaayachi/consul-net-rpc/net-rpc-msgpackrpc"
+	"github.com/dhiaayachi/consul-net-rpc/net/rpc"
 	"github.com/hashicorp/go-uuid"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/acl/resolver"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/internal/gossip/librtt"
-	"github.com/hashicorp/consul/lib/stringslice"
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
-	"github.com/hashicorp/consul/testrpc"
-	"github.com/hashicorp/consul/types"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/acl/resolver"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/internal/gossip/librtt"
+	"github.com/dhiaayachi/consul/lib/stringslice"
+	"github.com/dhiaayachi/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/sdk/testutil/retry"
+	"github.com/dhiaayachi/consul/testrpc"
+	"github.com/dhiaayachi/consul/types"
 )
 
 func TestCatalog_Register(t *testing.T) {
@@ -2007,7 +2007,7 @@ func TestCatalog_ListServiceNodes_ByAddress(t *testing.T) {
 }
 
 // TestCatalog_ListServiceNodes_ServiceTags_V1_2_3Compat asserts the compatibility between <=v1.2.3 agents and >=v1.3.0 servers
-// see https://github.com/hashicorp/consul/issues/4922
+// see https://github.com/dhiaayachi/consul/issues/4922
 func TestCatalog_ListServiceNodes_ServiceTags_V1_2_3Compat(t *testing.T) {
 	if testing.Short() {
 		t.Skip("too slow for testing.Short")

@@ -3,7 +3,7 @@
 package indexersmock
 
 import (
-	resource "github.com/hashicorp/consul/internal/resource"
+	resource "github.com/dhiaayachi/consul/internal/resource"
 	mock "github.com/stretchr/testify/mock"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 )

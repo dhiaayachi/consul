@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/sdk/testutil"
 	"github.com/mitchellh/cli"
 	require "github.com/stretchr/testify/require"
 )

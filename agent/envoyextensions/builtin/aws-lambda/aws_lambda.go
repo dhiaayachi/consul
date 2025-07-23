@@ -20,8 +20,8 @@ import (
 	"github.com/mitchellh/mapstructure"
 	pstruct "google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/envoyextensions/extensioncommon"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/envoyextensions/extensioncommon"
 	"github.com/hashicorp/go-multierror"
 )
 

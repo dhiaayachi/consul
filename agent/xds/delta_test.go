@@ -13,21 +13,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/envoyextensions/xdscommon"
+	"github.com/dhiaayachi/consul/envoyextensions/xdscommon"
 
 	"github.com/armon/go-metrics"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/grpc-external/limiter"
+	"github.com/dhiaayachi/consul/agent/proxycfg"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/envoyextensions/extensioncommon"
+	"github.com/dhiaayachi/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/sdk/testutil/retry"
+	"github.com/dhiaayachi/consul/version"
 	envoy_cluster_v3 "github.com/envoyproxy/go-control-plane/envoy/config/cluster/v3"
 	envoy_listener_v3 "github.com/envoyproxy/go-control-plane/envoy/config/listener/v3"
 	envoy_discovery_v3 "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/grpc-external/limiter"
-	"github.com/hashicorp/consul/agent/proxycfg"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/envoyextensions/extensioncommon"
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
-	"github.com/hashicorp/consul/version"
 	"github.com/hashicorp/go-hclog"
 	goversion "github.com/hashicorp/go-version"
 	"github.com/stretchr/testify/require"
@@ -539,7 +539,7 @@ func TestServer_DeltaAggregatedResources_v3_BasicProtocol_HTTP2(t *testing.T) {
 }
 
 func TestServer_DeltaAggregatedResources_v3_SlowEndpointPopulation(t *testing.T) {
-	// This illustrates a scenario related to https://github.com/hashicorp/consul/issues/10563
+	// This illustrates a scenario related to https://github.com/dhiaayachi/consul/issues/10563
 
 	aclResolve := func(id string) (acl.Authorizer, error) {
 		// Allow all

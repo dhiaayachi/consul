@@ -22,8 +22,8 @@ import (
 	"github.com/hashicorp/hcp-sdk-go/httpclient"
 	"github.com/hashicorp/hcp-sdk-go/resource"
 
-	"github.com/hashicorp/consul/agent/hcp/config"
-	"github.com/hashicorp/consul/version"
+	"github.com/dhiaayachi/consul/agent/hcp/config"
+	"github.com/dhiaayachi/consul/version"
 )
 
 // metricsGatewayPath is the default path for metrics export request on the Telemetry Gateway.

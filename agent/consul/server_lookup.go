@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/hashicorp/consul/agent/metadata"
+	"github.com/dhiaayachi/consul/agent/metadata"
 	"github.com/hashicorp/raft"
 )
 

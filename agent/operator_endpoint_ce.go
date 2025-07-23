@@ -6,7 +6,7 @@
 package agent
 
 import (
-	"github.com/hashicorp/consul/api"
+	"github.com/dhiaayachi/consul/api"
 	autopilot "github.com/hashicorp/raft-autopilot"
 )
 

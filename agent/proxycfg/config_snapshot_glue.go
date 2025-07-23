@@ -4,9 +4,9 @@
 package proxycfg
 
 import (
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/logging"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/logging"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

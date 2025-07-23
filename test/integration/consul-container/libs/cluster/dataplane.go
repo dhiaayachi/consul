@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/utils"
+	"github.com/dhiaayachi/consul/test/integration/consul-container/libs/utils"
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 )

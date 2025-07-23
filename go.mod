@@ -7,9 +7,9 @@ toolchain go1.23.11
 replace (
 	github.com/dhiaayachi/consul/api => ./api
 	github.com/dhiaayachi/consul/envoyextensions => ./envoyextensions
-	github.com/dhiaayachi/consul/proto-public => ./proto-public
 	github.com/dhiaayachi/consul/sdk => ./sdk
-	github.com/dhiaayachi/consul/troubleshoot => ./troubleshoot
+	github.com/hashicorp/consul/proto-public => ./proto-public
+	github.com/hashicorp/consul/troubleshoot => ./troubleshoot
 )
 
 exclude (
@@ -26,6 +26,9 @@ require (
 	github.com/aws/aws-sdk-go v1.55.5
 	github.com/coreos/go-oidc/v3 v3.9.0
 	github.com/deckarep/golang-set/v2 v2.3.1
+	github.com/dhiaayachi/consul/api v1.32.1
+	github.com/dhiaayachi/consul/envoyextensions v0.7.8
+	github.com/dhiaayachi/consul/sdk v0.16.2
 	github.com/docker/go-connections v0.4.0
 	github.com/envoyproxy/go-control-plane v0.12.0
 	github.com/envoyproxy/go-control-plane/xdsmatcher v0.0.0-20230524161521-aaaacbfbe53e
@@ -44,10 +47,7 @@ require (
 	github.com/hashicorp/consul v1.21.2
 	github.com/hashicorp/consul-awsauth v0.0.0-20250327105253-7d51f01ee71a
 	github.com/hashicorp/consul-net-rpc v0.0.0-20241115170654-e7bb6e5a1d6d
-	github.com/hashicorp/consul/api v1.32.1
-	github.com/hashicorp/consul/envoyextensions v0.7.8
 	github.com/hashicorp/consul/proto-public v0.6.4
-	github.com/hashicorp/consul/sdk v0.16.2
 	github.com/hashicorp/consul/troubleshoot v0.7.5
 	github.com/hashicorp/go-bexpr v0.1.2
 	github.com/hashicorp/go-checkpoint v0.5.0
@@ -218,6 +218,9 @@ require (
 	github.com/googleapis/gax-go/v2 v2.13.0 // indirect
 	github.com/gophercloud/gophercloud v0.3.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.16.0 // indirect
+	github.com/hashicorp/consul/api v1.31.2 // indirect
+	github.com/hashicorp/consul/envoyextensions v0.7.3 // indirect
+	github.com/hashicorp/consul/sdk v0.16.1 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-discover/provider/gce v0.0.0-20241120163552-5eb1507d16b4 // indirect
 	github.com/hashicorp/go-msgpack v0.5.5 // indirect

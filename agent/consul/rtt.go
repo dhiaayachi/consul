@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/internal/gossip/librtt"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/internal/gossip/librtt"
 )
 
 // nodeSorter takes a list of nodes and a parallel vector of distances and

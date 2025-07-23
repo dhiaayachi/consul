@@ -18,11 +18,11 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/agent/consul/rate"
-	grpcmiddleware "github.com/hashicorp/consul/agent/grpc-middleware"
-	"github.com/hashicorp/consul/agent/grpc-middleware/testutil"
-	"github.com/hashicorp/consul/agent/grpc-middleware/testutil/testservice"
-	"github.com/hashicorp/consul/proto/private/prototest"
+	"github.com/dhiaayachi/consul/agent/consul/rate"
+	grpcmiddleware "github.com/dhiaayachi/consul/agent/grpc-middleware"
+	"github.com/dhiaayachi/consul/agent/grpc-middleware/testutil"
+	"github.com/dhiaayachi/consul/agent/grpc-middleware/testutil/testservice"
+	"github.com/dhiaayachi/consul/proto/private/prototest"
 )
 
 func TestServer_EmitsStats(t *testing.T) {

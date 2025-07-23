@@ -6,9 +6,9 @@
 package agent
 
 import (
-	autoconf "github.com/hashicorp/consul/agent/auto-config"
-	"github.com/hashicorp/consul/agent/config"
-	"github.com/hashicorp/consul/agent/consul"
+	autoconf "github.com/dhiaayachi/consul/agent/auto-config"
+	"github.com/dhiaayachi/consul/agent/config"
+	"github.com/dhiaayachi/consul/agent/consul"
 )
 
 // initEnterpriseBaseDeps is responsible for initializing the enterprise dependencies that

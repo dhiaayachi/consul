@@ -4,12 +4,12 @@
 package configentry
 
 import (
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/submatview"
-	"github.com/hashicorp/consul/proto/private/pbcommon"
-	"github.com/hashicorp/consul/proto/private/pbconfigentry"
-	"github.com/hashicorp/consul/proto/private/pbsubscribe"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/submatview"
+	"github.com/dhiaayachi/consul/proto/private/pbcommon"
+	"github.com/dhiaayachi/consul/proto/private/pbconfigentry"
+	"github.com/dhiaayachi/consul/proto/private/pbsubscribe"
 )
 
 var _ submatview.View = (*ConfigEntryView)(nil)

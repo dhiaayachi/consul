@@ -5,7 +5,7 @@
 
 package testauth
 
-import "github.com/hashicorp/consul/acl"
+import "github.com/dhiaayachi/consul/acl"
 
 type enterpriseConfig struct{}
 

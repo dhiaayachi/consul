@@ -11,12 +11,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul-net-rpc/go-msgpack/codec"
+	"github.com/dhiaayachi/consul-net-rpc/go-msgpack/codec"
 
-	"github.com/hashicorp/consul/agent/consul/state"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/lib/stringslice"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/agent/consul/state"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/lib/stringslice"
+	"github.com/dhiaayachi/consul/sdk/testutil"
 )
 
 func TestRestoreFromEnterprise(t *testing.T) {

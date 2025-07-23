@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/internal/testing/golden"
-	"github.com/hashicorp/consul/version/versiontest"
+	"github.com/dhiaayachi/consul/internal/testing/golden"
+	"github.com/dhiaayachi/consul/version/versiontest"
 	"github.com/mitchellh/cli"
 	"github.com/stretchr/testify/require"
 )

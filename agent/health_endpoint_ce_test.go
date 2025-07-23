@@ -6,7 +6,7 @@
 package agent
 
 import (
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/dhiaayachi/consul/testrpc"
 	"github.com/stretchr/testify/require"
 	"net/http"
 	"net/http/httptest"

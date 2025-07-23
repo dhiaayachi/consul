@@ -17,10 +17,10 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/agent/consul/rate"
-	"github.com/hashicorp/consul/agent/grpc-middleware/testutil"
-	"github.com/hashicorp/consul/agent/grpc-middleware/testutil/testservice"
-	"github.com/hashicorp/consul/proto/private/prototest"
+	"github.com/dhiaayachi/consul/agent/consul/rate"
+	"github.com/dhiaayachi/consul/agent/grpc-middleware/testutil"
+	"github.com/dhiaayachi/consul/agent/grpc-middleware/testutil/testservice"
+	"github.com/dhiaayachi/consul/proto/private/prototest"
 )
 
 func TestHandler_EmitsStats(t *testing.T) {

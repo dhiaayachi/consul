@@ -11,12 +11,12 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-memdb"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/configentry"
-	"github.com/hashicorp/consul/agent/grpc-external/limiter"
-	"github.com/hashicorp/consul/agent/local"
-	"github.com/hashicorp/consul/agent/proxycfg"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/configentry"
+	"github.com/dhiaayachi/consul/agent/grpc-external/limiter"
+	"github.com/dhiaayachi/consul/agent/local"
+	"github.com/dhiaayachi/consul/agent/proxycfg"
+	"github.com/dhiaayachi/consul/agent/structs"
 )
 
 const source proxycfg.ProxySource = "catalog"
@@ -63,7 +63,7 @@ func (m *ConfigSource) Watch(serviceID structs.ServiceID, nodeName string, token
 	// We do this here rather than in the xDS server because we don't want to apply
 	// the limit to services from the LocalConfigSource.
 	//
-	// See: https://github.com/hashicorp/consul/issues/15753
+	// See: https://github.com/dhiaayachi/consul/issues/15753
 	session, err := m.SessionLimiter.BeginSession()
 	if err != nil {
 		return nil, nil, nil, nil, err

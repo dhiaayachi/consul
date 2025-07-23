@@ -9,8 +9,8 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	"github.com/hashicorp/consul/agent/config"
-	"github.com/hashicorp/consul/command/flags"
+	"github.com/dhiaayachi/consul/agent/config"
+	"github.com/dhiaayachi/consul/command/flags"
 )
 
 func New(ui cli.Ui) *cmd {

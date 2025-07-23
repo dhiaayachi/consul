@@ -20,9 +20,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent/hcp/client"
-	"github.com/hashicorp/consul/agent/hcp/config"
-	"github.com/hashicorp/consul/version"
+	"github.com/dhiaayachi/consul/agent/hcp/client"
+	"github.com/dhiaayachi/consul/agent/hcp/config"
+	"github.com/dhiaayachi/consul/version"
 	"github.com/hashicorp/go-hclog"
 )
 

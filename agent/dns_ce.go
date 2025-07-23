@@ -8,10 +8,10 @@ package agent
 import (
 	"fmt"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/config"
-	agentdns "github.com/hashicorp/consul/agent/dns"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/config"
+	agentdns "github.com/dhiaayachi/consul/agent/dns"
+	"github.com/dhiaayachi/consul/agent/structs"
 )
 
 // NOTE: these functions have also been copied to agent/dns package for dns v2.

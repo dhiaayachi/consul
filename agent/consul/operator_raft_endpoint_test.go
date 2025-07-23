@@ -13,12 +13,12 @@ import (
 	"github.com/hashicorp/raft"
 	"github.com/stretchr/testify/require"
 
-	msgpackrpc "github.com/hashicorp/consul-net-rpc/net-rpc-msgpackrpc"
+	msgpackrpc "github.com/dhiaayachi/consul-net-rpc/net-rpc-msgpackrpc"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/sdk/freeport"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/sdk/freeport"
+	"github.com/dhiaayachi/consul/testrpc"
 )
 
 func TestOperator_RaftGetConfiguration(t *testing.T) {

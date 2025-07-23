@@ -15,12 +15,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/command/flags"
-	proxyImpl "github.com/hashicorp/consul/connect/proxy"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/command/flags"
+	proxyImpl "github.com/dhiaayachi/consul/connect/proxy"
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/logging"
+	"github.com/dhiaayachi/consul/logging"
 	"github.com/mitchellh/cli"
 )
 

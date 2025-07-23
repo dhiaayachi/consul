@@ -5,7 +5,7 @@ package mockpbconnectca
 import (
 	context "context"
 
-	pbconnectca "github.com/hashicorp/consul/proto-public/pbconnectca"
+	pbconnectca "github.com/dhiaayachi/consul/proto-public/pbconnectca"
 	mock "github.com/stretchr/testify/mock"
 )
 

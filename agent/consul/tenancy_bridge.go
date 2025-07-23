@@ -3,7 +3,7 @@
 
 package consul
 
-import "github.com/hashicorp/consul/agent/grpc-external/services/resource"
+import "github.com/dhiaayachi/consul/agent/grpc-external/services/resource"
 
 // V1TenancyBridge is used by the resource service to access V1 implementations of
 // partitions and namespaces. This bridge will be removed when V2 implemenations

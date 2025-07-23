@@ -11,8 +11,8 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"golang.org/x/exp/maps"
 
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/internal/resource"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 )
 
 func (m *Manager) ValidateDependencies(registrations []resource.Registration) error {

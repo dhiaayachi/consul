@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/api"
+	"github.com/dhiaayachi/consul/agent"
+	"github.com/dhiaayachi/consul/api"
 	"github.com/mitchellh/cli"
 
 	"github.com/stretchr/testify/require"

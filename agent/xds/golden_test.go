@@ -16,7 +16,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/hashicorp/consul/proto/private/prototest"
+	"github.com/dhiaayachi/consul/proto/private/prototest"
 )
 
 // update allows golden files to be updated based on the current output.

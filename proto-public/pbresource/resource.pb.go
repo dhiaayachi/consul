@@ -7,12 +7,12 @@
 // 	protoc        (unknown)
 // source: pbresource/resource.proto
 
-// For more information, see: https://github.com/hashicorp/consul/tree/main/docs/resources
+// For more information, see: https://github.com/dhiaayachi/consul/tree/main/docs/resources
 
 package pbresource
 
 import (
-	_ "github.com/hashicorp/consul/proto-public/annotations/ratelimit"
+	_ "github.com/dhiaayachi/consul/proto-public/annotations/ratelimit"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	anypb "google.golang.org/protobuf/types/known/anypb"

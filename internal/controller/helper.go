@@ -4,8 +4,8 @@
 package controller
 
 import (
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/internal/resource"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 )
 
 // MakeRequests accepts a list of pbresource.ID and pbresource.Reference items,

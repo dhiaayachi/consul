@@ -3,8 +3,8 @@
 package indexersmock
 
 import (
-	resource "github.com/hashicorp/consul/internal/resource"
-	pbresource "github.com/hashicorp/consul/proto-public/pbresource"
+	resource "github.com/dhiaayachi/consul/internal/resource"
+	pbresource "github.com/dhiaayachi/consul/proto-public/pbresource"
 	mock "github.com/stretchr/testify/mock"
 )
 

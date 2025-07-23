@@ -4,9 +4,9 @@
 package consul
 
 import (
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/acl/resolver"
-	"github.com/hashicorp/consul/agent/grpc-external/services/configentry"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/acl/resolver"
+	"github.com/dhiaayachi/consul/agent/grpc-external/services/configentry"
 )
 
 type ConfigEntryBackend struct {

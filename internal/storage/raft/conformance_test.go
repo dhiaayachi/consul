@@ -16,10 +16,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/hashicorp/consul/internal/storage"
-	"github.com/hashicorp/consul/internal/storage/conformance"
-	"github.com/hashicorp/consul/internal/storage/raft"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/internal/storage"
+	"github.com/dhiaayachi/consul/internal/storage/conformance"
+	"github.com/dhiaayachi/consul/internal/storage/raft"
+	"github.com/dhiaayachi/consul/sdk/testutil"
 )
 
 func TestBackend_Conformance(t *testing.T) {

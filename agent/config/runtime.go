@@ -14,17 +14,17 @@ import (
 
 	"github.com/hashicorp/go-uuid"
 
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/agent/consul"
-	consulrate "github.com/hashicorp/consul/agent/consul/rate"
-	hcpconfig "github.com/hashicorp/consul/agent/hcp/config"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/token"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/logging"
-	"github.com/hashicorp/consul/tlsutil"
-	"github.com/hashicorp/consul/types"
+	"github.com/dhiaayachi/consul/agent/cache"
+	"github.com/dhiaayachi/consul/agent/consul"
+	consulrate "github.com/dhiaayachi/consul/agent/consul/rate"
+	hcpconfig "github.com/dhiaayachi/consul/agent/hcp/config"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/token"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/lib"
+	"github.com/dhiaayachi/consul/logging"
+	"github.com/dhiaayachi/consul/tlsutil"
+	"github.com/dhiaayachi/consul/types"
 )
 
 type RuntimeSOAConfig struct {

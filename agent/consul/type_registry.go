@@ -4,9 +4,9 @@
 package consul
 
 import (
-	"github.com/hashicorp/consul/internal/multicluster"
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/internal/resource/demo"
+	"github.com/dhiaayachi/consul/internal/multicluster"
+	"github.com/dhiaayachi/consul/internal/resource"
+	"github.com/dhiaayachi/consul/internal/resource/demo"
 )
 
 // NewTypeRegistry returns a registry populated with all supported resource

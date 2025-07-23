@@ -11,8 +11,8 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/hashicorp/consul-server-connection-manager/discovery"
-	"github.com/hashicorp/consul/api"
+	"github.com/dhiaayachi/consul-server-connection-manager/discovery"
+	"github.com/dhiaayachi/consul/api"
 	"github.com/hashicorp/go-cleanhttp"
 	"github.com/hashicorp/go-hclog"
 	"google.golang.org/grpc"

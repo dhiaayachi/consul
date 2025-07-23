@@ -3,7 +3,7 @@
 
 package connect
 
-import "github.com/hashicorp/consul/sdk/testutil"
+import "github.com/dhiaayachi/consul/sdk/testutil"
 
 // TestSpiffeIDService returns a SPIFFE ID representing a service.
 func TestSpiffeIDService(t testutil.TestingTB, service string) *SpiffeIDService {

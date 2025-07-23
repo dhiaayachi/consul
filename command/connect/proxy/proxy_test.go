@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/connect/proxy"
+	"github.com/dhiaayachi/consul/agent"
+	"github.com/dhiaayachi/consul/connect/proxy"
 	"github.com/mitchellh/cli"
 	"github.com/stretchr/testify/require"
 )

@@ -10,9 +10,9 @@ import (
 	"github.com/hashicorp/serf/serf"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/types"
-	"github.com/hashicorp/consul/version"
+	"github.com/dhiaayachi/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/types"
+	"github.com/dhiaayachi/consul/version"
 )
 
 func TestMerge_LAN(t *testing.T) {

@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/utils"
-	"github.com/hashicorp/consul/testing/deployer/sprawl"
-	"github.com/hashicorp/consul/testing/deployer/topology"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/test/integration/consul-container/libs/utils"
+	"github.com/dhiaayachi/consul/testing/deployer/sprawl"
+	"github.com/dhiaayachi/consul/testing/deployer/topology"
 )
 
 // TestTrafficManagement_ResolverDefaultSubset_Agentless tests resolver directs traffic to default subset - agentless

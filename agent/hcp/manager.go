@@ -11,10 +11,10 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	hcpclient "github.com/hashicorp/consul/agent/hcp/client"
-	"github.com/hashicorp/consul/agent/hcp/config"
-	"github.com/hashicorp/consul/agent/hcp/scada"
-	"github.com/hashicorp/consul/lib"
+	hcpclient "github.com/dhiaayachi/consul/agent/hcp/client"
+	"github.com/dhiaayachi/consul/agent/hcp/config"
+	"github.com/dhiaayachi/consul/agent/hcp/scada"
+	"github.com/dhiaayachi/consul/lib"
 )
 
 var (

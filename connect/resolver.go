@@ -9,9 +9,9 @@ import (
 	"math/rand"
 	"strings"
 
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/ipaddr"
+	"github.com/dhiaayachi/consul/agent/connect"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/ipaddr"
 )
 
 // Resolver is the interface implemented by a service discovery mechanism to get

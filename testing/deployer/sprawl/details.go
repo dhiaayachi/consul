@@ -14,7 +14,7 @@ import (
 
 	retry "github.com/avast/retry-go"
 
-	"github.com/hashicorp/consul/api"
+	"github.com/dhiaayachi/consul/api"
 )
 
 // PrintDetails will dump relevant addressing and naming data to the logger for

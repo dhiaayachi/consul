@@ -30,25 +30,25 @@ import (
 	"github.com/hashicorp/go-uuid"
 	"github.com/hashicorp/serf/serf"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/acl/resolver"
-	"github.com/hashicorp/consul/agent/config"
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/connect/ca"
-	"github.com/hashicorp/consul/agent/consul"
-	"github.com/hashicorp/consul/agent/debug"
-	"github.com/hashicorp/consul/agent/local"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/token"
-	tokenStore "github.com/hashicorp/consul/agent/token"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/envoyextensions/xdscommon"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
-	"github.com/hashicorp/consul/testrpc"
-	"github.com/hashicorp/consul/types"
-	"github.com/hashicorp/consul/version"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/acl/resolver"
+	"github.com/dhiaayachi/consul/agent/config"
+	"github.com/dhiaayachi/consul/agent/connect"
+	"github.com/dhiaayachi/consul/agent/connect/ca"
+	"github.com/dhiaayachi/consul/agent/consul"
+	"github.com/dhiaayachi/consul/agent/debug"
+	"github.com/dhiaayachi/consul/agent/local"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/token"
+	tokenStore "github.com/dhiaayachi/consul/agent/token"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/envoyextensions/xdscommon"
+	"github.com/dhiaayachi/consul/lib"
+	"github.com/dhiaayachi/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/sdk/testutil/retry"
+	"github.com/dhiaayachi/consul/testrpc"
+	"github.com/dhiaayachi/consul/types"
+	"github.com/dhiaayachi/consul/version"
 )
 
 func createACLTokenWithAgentReadPolicy(t *testing.T, srv *HTTPHandlers) string {
@@ -1903,7 +1903,7 @@ func (s *delegateConfigReloadShim) ReloadConfig(cfg consul.ReloadableConfig) err
 }
 
 // TestAgent_ReloadDoesNotTriggerWatch Ensure watches not triggered after reload
-// see https://github.com/hashicorp/consul/issues/7446
+// see https://github.com/dhiaayachi/consul/issues/7446
 func TestAgent_ReloadDoesNotTriggerWatch(t *testing.T) {
 	if testing.Short() {
 		t.Skip("too slow for testing.Short")
@@ -2792,7 +2792,7 @@ func TestAgent_RegisterCheck_UDP(t *testing.T) {
 }
 
 // This verifies all the forms of the new args-style check that we need to
-// support as a result of https://github.com/hashicorp/consul/issues/3587.
+// support as a result of https://github.com/dhiaayachi/consul/issues/3587.
 func TestAgent_RegisterCheck_Scripts(t *testing.T) {
 	if testing.Short() {
 		t.Skip("too slow for testing.Short")
@@ -7243,7 +7243,7 @@ func TestAgentConnectCALeafCert_goodNotLocal(t *testing.T) {
 		require.Equal(t, issued, issued2)
 	}
 
-	// Test Blocking - see https://github.com/hashicorp/consul/issues/4462
+	// Test Blocking - see https://github.com/dhiaayachi/consul/issues/4462
 	{
 		// Fetch it again
 		resp := httptest.NewRecorder()
@@ -7295,7 +7295,7 @@ func TestAgentConnectCALeafCert_goodNotLocal(t *testing.T) {
 }
 
 func TestAgentConnectCALeafCert_nonBlockingQuery_after_blockingQuery_shouldNotBlock(t *testing.T) {
-	// see: https://github.com/hashicorp/consul/issues/12048
+	// see: https://github.com/dhiaayachi/consul/issues/12048
 
 	if testing.Short() {
 		t.Skip("too slow for testing.Short")

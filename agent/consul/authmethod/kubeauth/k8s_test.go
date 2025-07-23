@@ -8,10 +8,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/hashicorp/consul-net-rpc/go-msgpack/codec"
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/consul/authmethod"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul-net-rpc/go-msgpack/codec"
+	"github.com/dhiaayachi/consul/agent/connect"
+	"github.com/dhiaayachi/consul/agent/consul/authmethod"
+	"github.com/dhiaayachi/consul/agent/structs"
 	"github.com/stretchr/testify/require"
 )
 

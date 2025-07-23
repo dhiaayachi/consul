@@ -30,9 +30,9 @@ import (
 	envoy_tls_v3 "github.com/envoyproxy/go-control-plane/envoy/extensions/transport_sockets/tls/v3"
 	envoy_type_v3 "github.com/envoyproxy/go-control-plane/envoy/type/v3"
 
-	"github.com/hashicorp/consul/agent/xds/config"
-	"github.com/hashicorp/consul/agent/xds/naming"
-	"github.com/hashicorp/consul/agent/xds/platform"
+	"github.com/dhiaayachi/consul/agent/xds/config"
+	"github.com/dhiaayachi/consul/agent/xds/naming"
+	"github.com/dhiaayachi/consul/agent/xds/platform"
 
 	"github.com/hashicorp/go-hclog"
 	"google.golang.org/protobuf/encoding/protojson"
@@ -41,18 +41,18 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/proxycfg"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/xds/accesslogs"
-	"github.com/hashicorp/consul/agent/xds/response"
-	"github.com/hashicorp/consul/envoyextensions/xdscommon"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/lib/stringslice"
-	"github.com/hashicorp/consul/proto/private/pbpeering"
-	"github.com/hashicorp/consul/sdk/iptables"
-	"github.com/hashicorp/consul/types"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/connect"
+	"github.com/dhiaayachi/consul/agent/proxycfg"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/xds/accesslogs"
+	"github.com/dhiaayachi/consul/agent/xds/response"
+	"github.com/dhiaayachi/consul/envoyextensions/xdscommon"
+	"github.com/dhiaayachi/consul/lib"
+	"github.com/dhiaayachi/consul/lib/stringslice"
+	"github.com/dhiaayachi/consul/proto/private/pbpeering"
+	"github.com/dhiaayachi/consul/sdk/iptables"
+	"github.com/dhiaayachi/consul/types"
 )
 
 // listenersFromSnapshot returns the xDS API representation of the "listeners" in the snapshot.

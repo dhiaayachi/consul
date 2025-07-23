@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
-	libassert "github.com/hashicorp/consul/test/integration/consul-container/libs/assert"
-	"github.com/hashicorp/consul/testing/deployer/topology"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/sdk/testutil/retry"
+	libassert "github.com/dhiaayachi/consul/test/integration/consul-container/libs/assert"
+	"github.com/dhiaayachi/consul/testing/deployer/topology"
 	"github.com/stretchr/testify/require"
 )
 

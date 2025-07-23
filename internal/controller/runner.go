@@ -16,12 +16,12 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/agent/consul/controller/queue"
-	"github.com/hashicorp/consul/internal/controller/cache"
-	"github.com/hashicorp/consul/internal/protoutil"
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/internal/storage"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/agent/consul/controller/queue"
+	"github.com/dhiaayachi/consul/internal/controller/cache"
+	"github.com/dhiaayachi/consul/internal/protoutil"
+	"github.com/dhiaayachi/consul/internal/resource"
+	"github.com/dhiaayachi/consul/internal/storage"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 )
 
 // Runtime contains the dependencies required by reconcilers.

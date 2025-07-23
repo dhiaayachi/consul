@@ -6,7 +6,7 @@
 package testing
 
 import (
-	"github.com/hashicorp/consul/acl"
+	"github.com/dhiaayachi/consul/acl"
 )
 
 func FillEntMeta(entMeta *acl.EnterpriseMeta) {

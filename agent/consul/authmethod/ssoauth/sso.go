@@ -7,9 +7,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/hashicorp/consul/agent/consul/authmethod"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/internal/go-sso/oidcauth"
+	"github.com/dhiaayachi/consul/agent/consul/authmethod"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/internal/go-sso/oidcauth"
 	"github.com/hashicorp/go-hclog"
 )
 

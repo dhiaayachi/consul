@@ -6,7 +6,7 @@
 package config
 
 import (
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/structs"
 )
 
 func (b *builder) validateSegments(rt RuntimeConfig) error {

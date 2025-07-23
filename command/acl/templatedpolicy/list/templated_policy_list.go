@@ -10,8 +10,8 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	"github.com/hashicorp/consul/command/acl/templatedpolicy"
-	"github.com/hashicorp/consul/command/flags"
+	"github.com/dhiaayachi/consul/command/acl/templatedpolicy"
+	"github.com/dhiaayachi/consul/command/flags"
 )
 
 func New(ui cli.Ui) *cmd {

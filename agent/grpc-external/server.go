@@ -21,9 +21,9 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/consul/agent/consul/rate"
-	agentmiddleware "github.com/hashicorp/consul/agent/grpc-middleware"
-	"github.com/hashicorp/consul/tlsutil"
+	"github.com/dhiaayachi/consul/agent/consul/rate"
+	agentmiddleware "github.com/dhiaayachi/consul/agent/grpc-middleware"
+	"github.com/dhiaayachi/consul/tlsutil"
 )
 
 const FORWARD_SERVICE_NAME_PREFIX = "/hashicorp.consul."

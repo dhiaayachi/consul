@@ -9,9 +9,9 @@ import (
 	mapset "github.com/deckarep/golang-set/v2"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/internal/resource"
-	rtest "github.com/hashicorp/consul/internal/resource/resourcetest"
-	pbdemo "github.com/hashicorp/consul/proto/private/pbdemo/v2"
+	"github.com/dhiaayachi/consul/internal/resource"
+	rtest "github.com/dhiaayachi/consul/internal/resource/resourcetest"
+	pbdemo "github.com/dhiaayachi/consul/proto/private/pbdemo/v2"
 )
 
 func TestFinalizer(t *testing.T) {

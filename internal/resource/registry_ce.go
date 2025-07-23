@@ -8,7 +8,7 @@ package resource
 import (
 	"google.golang.org/protobuf/proto"
 
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 )
 
 type Registration struct {

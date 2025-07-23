@@ -10,13 +10,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/hashicorp/consul/internal/controller/cache/index"
-	"github.com/hashicorp/consul/internal/controller/cache/indexers"
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/internal/resource/resourcetest"
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	pbdemo "github.com/hashicorp/consul/proto/private/pbdemo/v1"
-	"github.com/hashicorp/consul/proto/private/prototest"
+	"github.com/dhiaayachi/consul/internal/controller/cache/index"
+	"github.com/dhiaayachi/consul/internal/controller/cache/indexers"
+	"github.com/dhiaayachi/consul/internal/resource"
+	"github.com/dhiaayachi/consul/internal/resource/resourcetest"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
+	pbdemo "github.com/dhiaayachi/consul/proto/private/pbdemo/v1"
+	"github.com/dhiaayachi/consul/proto/private/prototest"
 )
 
 const (

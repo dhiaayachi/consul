@@ -11,15 +11,15 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/internal/controller"
-	"github.com/hashicorp/consul/internal/controller/cache"
-	"github.com/hashicorp/consul/internal/controller/cache/index"
-	"github.com/hashicorp/consul/internal/multicluster/internal/types"
-	"github.com/hashicorp/consul/internal/resource"
-	pbmulticluster "github.com/hashicorp/consul/proto-public/pbmulticluster/v2"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/internal/controller"
+	"github.com/dhiaayachi/consul/internal/controller/cache"
+	"github.com/dhiaayachi/consul/internal/controller/cache/index"
+	"github.com/dhiaayachi/consul/internal/multicluster/internal/types"
+	"github.com/dhiaayachi/consul/internal/resource"
+	pbmulticluster "github.com/dhiaayachi/consul/proto-public/pbmulticluster/v2"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 )
 
 const (

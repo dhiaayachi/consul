@@ -4,7 +4,7 @@
 package sprawl
 
 import (
-	"github.com/hashicorp/consul/testing/deployer/topology"
+	"github.com/dhiaayachi/consul/testing/deployer/topology"
 )
 
 func (s *Sprawl) populateInitialResources(cluster *topology.Cluster) error {

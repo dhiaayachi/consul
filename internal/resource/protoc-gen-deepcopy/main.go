@@ -9,7 +9,7 @@ import (
 	"google.golang.org/protobuf/compiler/protogen"
 	plugin "google.golang.org/protobuf/types/pluginpb"
 
-	"github.com/hashicorp/consul/internal/resource/protoc-gen-deepcopy/internal/generate"
+	"github.com/dhiaayachi/consul/internal/resource/protoc-gen-deepcopy/internal/generate"
 )
 
 var (

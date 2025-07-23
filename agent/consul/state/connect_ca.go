@@ -9,7 +9,7 @@ import (
 	"github.com/hashicorp/go-memdb"
 	"github.com/pkg/errors"
 
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/structs"
 )
 
 const (
@@ -95,7 +95,7 @@ func (s *Snapshot) CAConfig() (*structs.CAConfiguration, error) {
 // CAConfig is used when restoring from a snapshot.
 func (s *Restore) CAConfig(config *structs.CAConfiguration) error {
 	// Don't restore a blank CA config
-	// https://github.com/hashicorp/consul/issues/4954
+	// https://github.com/dhiaayachi/consul/issues/4954
 	if config.Provider == "" {
 		return nil
 	}

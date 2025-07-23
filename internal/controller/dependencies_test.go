@@ -6,7 +6,7 @@ package controller
 import (
 	"testing"
 
-	"github.com/hashicorp/consul/internal/testing/golden"
+	"github.com/dhiaayachi/consul/internal/testing/golden"
 	"github.com/stretchr/testify/require"
 )
 

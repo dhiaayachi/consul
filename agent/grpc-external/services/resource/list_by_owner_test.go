@@ -16,15 +16,15 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/hashicorp/consul/acl"
-	svc "github.com/hashicorp/consul/agent/grpc-external/services/resource"
-	svctest "github.com/hashicorp/consul/agent/grpc-external/services/resource/testing"
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/internal/resource/demo"
-	"github.com/hashicorp/consul/internal/resource/resourcetest"
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	pbdemo "github.com/hashicorp/consul/proto/private/pbdemo/v1"
-	"github.com/hashicorp/consul/proto/private/prototest"
+	"github.com/dhiaayachi/consul/acl"
+	svc "github.com/dhiaayachi/consul/agent/grpc-external/services/resource"
+	svctest "github.com/dhiaayachi/consul/agent/grpc-external/services/resource/testing"
+	"github.com/dhiaayachi/consul/internal/resource"
+	"github.com/dhiaayachi/consul/internal/resource/demo"
+	"github.com/dhiaayachi/consul/internal/resource/resourcetest"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
+	pbdemo "github.com/dhiaayachi/consul/proto/private/pbdemo/v1"
+	"github.com/dhiaayachi/consul/proto/private/prototest"
 )
 
 func TestListByOwner_InputValidation(t *testing.T) {

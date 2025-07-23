@@ -10,12 +10,12 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	svc "github.com/hashicorp/consul/agent/grpc-external/services/resource"
-	svctest "github.com/hashicorp/consul/agent/grpc-external/services/resource/testing"
-	"github.com/hashicorp/consul/internal/resource/demo"
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	pbdemov2 "github.com/hashicorp/consul/proto/private/pbdemo/v2"
-	"github.com/hashicorp/consul/proto/private/prototest"
+	svc "github.com/dhiaayachi/consul/agent/grpc-external/services/resource"
+	svctest "github.com/dhiaayachi/consul/agent/grpc-external/services/resource/testing"
+	"github.com/dhiaayachi/consul/internal/resource/demo"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
+	pbdemov2 "github.com/dhiaayachi/consul/proto/private/pbdemo/v2"
+	"github.com/dhiaayachi/consul/proto/private/prototest"
 )
 
 func TestMutateAndValidate_InputValidation(t *testing.T) {

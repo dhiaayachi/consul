@@ -9,13 +9,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/hashicorp/consul/internal/controller/cache"
-	"github.com/hashicorp/consul/internal/controller/cache/cachemock"
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/internal/resource/demo"
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	pbdemo "github.com/hashicorp/consul/proto/private/pbdemo/v2"
-	"github.com/hashicorp/consul/proto/private/prototest"
+	"github.com/dhiaayachi/consul/internal/controller/cache"
+	"github.com/dhiaayachi/consul/internal/controller/cache/cachemock"
+	"github.com/dhiaayachi/consul/internal/resource"
+	"github.com/dhiaayachi/consul/internal/resource/demo"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
+	pbdemo "github.com/dhiaayachi/consul/proto/private/pbdemo/v2"
+	"github.com/dhiaayachi/consul/proto/private/prototest"
 )
 
 type decodedSuite struct {

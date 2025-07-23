@@ -12,8 +12,8 @@ import (
 
 	"github.com/hashicorp/serf/coordinate"
 
-	"github.com/hashicorp/consul/command/flags"
-	"github.com/hashicorp/consul/internal/gossip/librtt"
+	"github.com/dhiaayachi/consul/command/flags"
+	"github.com/dhiaayachi/consul/internal/gossip/librtt"
 )
 
 // TODO(partitions): how will this command work when asking for RTT between a

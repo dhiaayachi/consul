@@ -6,7 +6,7 @@
 package xds
 
 import (
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/structs"
 	"github.com/hashicorp/go-hclog"
 )
 

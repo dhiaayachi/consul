@@ -674,10 +674,10 @@ function get_consul_module_versions {
   for module_dir in "${module_directories[@]}"; do
     echo "Module versions for directory: '$module_dir':"
     echo "--------------"
-    (cd "$module_dir" && go list -m all | grep -e github.com/hashicorp/consul/api \
-    -e github.com/hashicorp/consul/envoyextensions \
+    (cd "$module_dir" && go list -m all | grep -e github.com/dhiaayachi/consul/api \
+    -e github.com/dhiaayachi/consul/envoyextensions \
     -e github.com/hashicorp/consul/proto-public \
-    -e github.com/hashicorp/consul/sdk \
+    -e github.com/dhiaayachi/consul/sdk \
     -e github.com/hashicorp/consul/troubleshoot \
     | if [ "$module_dir" != "." ]; then grep -v "consul/$module_dir"; else cat; fi)
     echo "--------------"

@@ -13,8 +13,8 @@ import (
 
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/lib/decode"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/lib/decode"
 	"github.com/hashicorp/go-multierror"
 )
 

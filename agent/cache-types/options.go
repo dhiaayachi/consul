@@ -6,7 +6,7 @@ package cachetype
 import (
 	"time"
 
-	"github.com/hashicorp/consul/agent/cache"
+	"github.com/dhiaayachi/consul/agent/cache"
 )
 
 // RegisterOptionsBlockingRefresh can be embedded into a struct to implement

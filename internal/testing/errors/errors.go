@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/internal/testing/golden"
+	"github.com/dhiaayachi/consul/internal/testing/golden"
 )
 
 func goldenError(t *testing.T, name string, actual string) {

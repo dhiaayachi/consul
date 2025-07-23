@@ -8,7 +8,7 @@ import (
 	"crypto/rand"
 	"encoding/base64"
 	"fmt"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
+	"github.com/dhiaayachi/consul/sdk/testutil/retry"
 	"io"
 	"path/filepath"
 	"testing"
@@ -17,7 +17,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/utils"
+	"github.com/dhiaayachi/consul/test/integration/consul-container/libs/utils"
 )
 
 const (

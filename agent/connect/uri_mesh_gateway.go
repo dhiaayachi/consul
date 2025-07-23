@@ -6,7 +6,7 @@ package connect
 import (
 	"net/url"
 
-	"github.com/hashicorp/consul/acl"
+	"github.com/dhiaayachi/consul/acl"
 )
 
 type SpiffeIDMeshGateway struct {

@@ -6,10 +6,10 @@ package consul
 import (
 	"context"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/acl/resolver"
-	"github.com/hashicorp/consul/agent/rpc/operator"
-	"github.com/hashicorp/consul/proto/private/pboperator"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/acl/resolver"
+	"github.com/dhiaayachi/consul/agent/rpc/operator"
+	"github.com/dhiaayachi/consul/proto/private/pboperator"
 	"github.com/hashicorp/raft"
 )
 

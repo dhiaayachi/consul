@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/hashicorp/consul/api"
+	"github.com/dhiaayachi/consul/api"
 )
 
 const (

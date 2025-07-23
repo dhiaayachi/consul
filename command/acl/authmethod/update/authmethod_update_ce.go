@@ -5,7 +5,7 @@
 
 package authmethodupdate
 
-import "github.com/hashicorp/consul/api"
+import "github.com/dhiaayachi/consul/api"
 
 type enterpriseCmd struct {
 }

@@ -8,7 +8,7 @@ import (
 
 	"github.com/mitchellh/go-testing-interface"
 
-	"github.com/hashicorp/consul/acl"
+	"github.com/dhiaayachi/consul/acl"
 )
 
 // TestRegisterRequest returns a RegisterRequest for registering a typical service.

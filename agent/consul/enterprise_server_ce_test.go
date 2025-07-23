@@ -6,7 +6,7 @@
 package consul
 
 import (
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/sdk/testutil"
 	hclog "github.com/hashicorp/go-hclog"
 )
 

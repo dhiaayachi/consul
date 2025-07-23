@@ -3,8 +3,8 @@
 package hcp
 
 import (
-	client "github.com/hashicorp/consul/agent/hcp/client"
-	config "github.com/hashicorp/consul/agent/hcp/config"
+	client "github.com/dhiaayachi/consul/agent/hcp/client"
+	config "github.com/dhiaayachi/consul/agent/hcp/config"
 
 	context "context"
 

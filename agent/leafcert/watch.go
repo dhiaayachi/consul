@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hashicorp/consul/agent/cacheshim"
-	"github.com/hashicorp/consul/lib"
+	"github.com/dhiaayachi/consul/agent/cacheshim"
+	"github.com/dhiaayachi/consul/lib"
 )
 
 // Notify registers a desire to be updated about changes to a cache result.

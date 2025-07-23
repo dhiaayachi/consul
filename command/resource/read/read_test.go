@@ -9,9 +9,9 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/command/resource/apply"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/dhiaayachi/consul/agent"
+	"github.com/dhiaayachi/consul/command/resource/apply"
+	"github.com/dhiaayachi/consul/testrpc"
 )
 
 func TestResourceReadInvalidArgs(t *testing.T) {

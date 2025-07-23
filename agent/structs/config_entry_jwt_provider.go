@@ -9,7 +9,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/hashicorp/consul/acl"
+	"github.com/dhiaayachi/consul/acl"
 	"github.com/hashicorp/go-multierror"
 )
 
@@ -461,7 +461,7 @@ func (e *JWTProviderConfigEntry) CanRead(authz acl.Authorizer) error {
 
 	// allow service-identity tokens the ability to read jwt-providers
 	// this is a workaround to allow sidecar proxies to read the jwt-providers
-	// see issue: https://github.com/hashicorp/consul/issues/17886 for more details
+	// see issue: https://github.com/dhiaayachi/consul/issues/17886 for more details
 	err := authz.ToAllowAuthorizer().ServiceWriteAnyAllowed(&authzContext)
 	if err == nil {
 		return err

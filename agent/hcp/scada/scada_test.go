@@ -6,7 +6,7 @@ package scada
 import (
 	"testing"
 
-	"github.com/hashicorp/consul/agent/hcp/config"
+	"github.com/dhiaayachi/consul/agent/hcp/config"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/require"
 )

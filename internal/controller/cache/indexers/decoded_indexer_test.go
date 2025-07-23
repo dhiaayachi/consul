@@ -7,11 +7,11 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/hashicorp/consul/internal/controller/cache/indexers/indexersmock"
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/internal/resource/resourcetest"
-	pbdemo "github.com/hashicorp/consul/proto/private/pbdemo/v1"
-	"github.com/hashicorp/consul/proto/private/prototest"
+	"github.com/dhiaayachi/consul/internal/controller/cache/indexers/indexersmock"
+	"github.com/dhiaayachi/consul/internal/resource"
+	"github.com/dhiaayachi/consul/internal/resource/resourcetest"
+	pbdemo "github.com/dhiaayachi/consul/proto/private/pbdemo/v1"
+	"github.com/dhiaayachi/consul/proto/private/prototest"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )

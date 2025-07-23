@@ -12,10 +12,10 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/command/flags"
-	"github.com/hashicorp/consul/command/resource"
-	"github.com/hashicorp/consul/command/resource/client"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/command/flags"
+	"github.com/dhiaayachi/consul/command/resource"
+	"github.com/dhiaayachi/consul/command/resource/client"
 )
 
 func New(ui cli.Ui) *cmd {

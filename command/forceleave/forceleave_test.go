@@ -10,8 +10,8 @@ import (
 	"github.com/hashicorp/serf/serf"
 	"github.com/mitchellh/cli"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
+	"github.com/dhiaayachi/consul/agent"
+	"github.com/dhiaayachi/consul/sdk/testutil/retry"
 )
 
 func TestForceLeaveCommand_noTabs(t *testing.T) {

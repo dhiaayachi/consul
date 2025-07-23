@@ -9,8 +9,8 @@ import (
 
 	"google.golang.org/grpc/metadata"
 
-	"github.com/hashicorp/consul/command/resource/client"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/command/resource/client"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 )
 
 const (

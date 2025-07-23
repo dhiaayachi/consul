@@ -8,11 +8,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	svctest "github.com/hashicorp/consul/agent/grpc-external/services/resource/testing"
-	"github.com/hashicorp/consul/internal/controller"
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	pbdemov2 "github.com/hashicorp/consul/proto/private/pbdemo/v2"
-	"github.com/hashicorp/consul/sdk/testutil"
+	svctest "github.com/dhiaayachi/consul/agent/grpc-external/services/resource/testing"
+	"github.com/dhiaayachi/consul/internal/controller"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
+	pbdemov2 "github.com/dhiaayachi/consul/proto/private/pbdemo/v2"
+	"github.com/dhiaayachi/consul/sdk/testutil"
 )
 
 func TestArtistReconciler(t *testing.T) {

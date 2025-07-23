@@ -11,8 +11,8 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 )
 
 type Topology struct {

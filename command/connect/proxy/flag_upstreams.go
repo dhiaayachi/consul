@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/connect/proxy"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/connect/proxy"
 )
 
 // FlagUpstreams implements the flag.Value interface and allows specifying

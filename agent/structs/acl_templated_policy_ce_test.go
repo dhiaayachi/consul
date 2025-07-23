@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/api"
+	"github.com/dhiaayachi/consul/api"
 )
 
 func TestStructs_ACLTemplatedPolicy_SyntheticPolicy(t *testing.T) {

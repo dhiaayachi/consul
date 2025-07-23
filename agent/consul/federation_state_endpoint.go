@@ -12,8 +12,8 @@ import (
 	"github.com/armon/go-metrics/prometheus"
 	memdb "github.com/hashicorp/go-memdb"
 
-	"github.com/hashicorp/consul/agent/consul/state"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/consul/state"
+	"github.com/dhiaayachi/consul/agent/structs"
 )
 
 var FederationStateSummaries = []prometheus.SummaryDefinition{

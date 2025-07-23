@@ -5,7 +5,7 @@
 
 package pbconfigentry
 
-import "github.com/hashicorp/consul/agent/structs"
+import "github.com/dhiaayachi/consul/agent/structs"
 
 func gwJWTRequirementToStructs(m *APIGatewayJWTRequirement) *structs.APIGatewayJWTRequirement {
 	return &structs.APIGatewayJWTRequirement{}

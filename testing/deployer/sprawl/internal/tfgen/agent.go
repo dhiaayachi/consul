@@ -9,8 +9,8 @@ import (
 
 	"github.com/hashicorp/hcl/v2/hclwrite"
 
-	"github.com/hashicorp/consul/testing/deployer/sprawl/internal/secrets"
-	"github.com/hashicorp/consul/testing/deployer/topology"
+	"github.com/dhiaayachi/consul/testing/deployer/sprawl/internal/secrets"
+	"github.com/dhiaayachi/consul/testing/deployer/topology"
 )
 
 func (g *Generator) generateAgentHCL(node *topology.Node) string {

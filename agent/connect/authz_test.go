@@ -4,7 +4,7 @@
 package connect
 
 import (
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/structs"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

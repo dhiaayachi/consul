@@ -11,6 +11,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/dhiaayachi/consul/agent/xds/config"
+	"github.com/dhiaayachi/consul/agent/xds/naming"
 	envoy_cluster_v3 "github.com/envoyproxy/go-control-plane/envoy/config/cluster/v3"
 	envoy_core_v3 "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 	envoy_endpoint_v3 "github.com/envoyproxy/go-control-plane/envoy/config/endpoint/v3"
@@ -19,8 +21,6 @@ import (
 	envoy_upstreams_v3 "github.com/envoyproxy/go-control-plane/envoy/extensions/upstreams/http/v3"
 	envoy_matcher_v3 "github.com/envoyproxy/go-control-plane/envoy/type/matcher/v3"
 	envoy_type_v3 "github.com/envoyproxy/go-control-plane/envoy/type/v3"
-	"github.com/hashicorp/consul/agent/xds/config"
-	"github.com/hashicorp/consul/agent/xds/naming"
 
 	"github.com/hashicorp/go-hclog"
 	"google.golang.org/protobuf/encoding/protojson"
@@ -29,12 +29,12 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/proxycfg"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/agent/xds/response"
-	"github.com/hashicorp/consul/envoyextensions/xdscommon"
-	"github.com/hashicorp/consul/proto/private/pbpeering"
+	"github.com/dhiaayachi/consul/agent/connect"
+	"github.com/dhiaayachi/consul/agent/proxycfg"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/xds/response"
+	"github.com/dhiaayachi/consul/envoyextensions/xdscommon"
+	"github.com/dhiaayachi/consul/proto/private/pbpeering"
 )
 
 const (
@@ -1666,7 +1666,7 @@ func injectSANMatcher(tlsContext *envoy_tls_v3.CommonTlsContext, terminatingEgre
 		// like an OR operation, where any match is sufficient to pass the certificate validation.
 		// To maintain backwards compatibility with the old untyped `match_subject_alt_names` behavior,
 		// we should match on all 4 enum types.
-		// https://github.com/hashicorp/consul/issues/20360
+		// https://github.com/dhiaayachi/consul/issues/20360
 		// https://github.com/envoyproxy/envoy/pull/18628/files#diff-cf088136dc052ddf1762fb3c96c0e8de472f3031f288e7e300558e6e72c8e129R69-R75
 		types = []envoy_tls_v3.SubjectAltNameMatcher_SanType{
 			envoy_tls_v3.SubjectAltNameMatcher_URI,

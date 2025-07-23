@@ -16,9 +16,9 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/lib/stringslice"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/lib/stringslice"
 )
 
 //go:embed acltemplatedpolicy/schemas/node.json

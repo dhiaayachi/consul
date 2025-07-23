@@ -3,7 +3,7 @@
 package scada
 
 import (
-	config "github.com/hashicorp/consul/agent/hcp/config"
+	config "github.com/dhiaayachi/consul/agent/hcp/config"
 	mock "github.com/stretchr/testify/mock"
 
 	net "net"

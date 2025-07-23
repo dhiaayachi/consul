@@ -21,7 +21,7 @@ import (
 	"github.com/hashicorp/go-cleanhttp"
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/api"
+	"github.com/dhiaayachi/consul/api"
 )
 
 // NOTE: This client is copied from the api module to temporarily facilitate the resource cli commands
@@ -883,7 +883,7 @@ func (r *request) toHTTP() (*http.Request, error) {
 	req.Header = r.header
 
 	// Content-Type must always be set when a body is present
-	// See https://github.com/hashicorp/consul/issues/10011
+	// See https://github.com/dhiaayachi/consul/issues/10011
 	if req.Body != nil && req.Header.Get("Content-Type") == "" {
 		req.Header.Set("Content-Type", "application/json")
 	}

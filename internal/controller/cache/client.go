@@ -6,7 +6,7 @@ package cache
 import (
 	"context"
 
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 	"google.golang.org/grpc"
 )
 

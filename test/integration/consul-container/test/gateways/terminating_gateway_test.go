@@ -9,15 +9,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/sdk/testutil/retry"
 	"github.com/stretchr/testify/require"
 
-	libassert "github.com/hashicorp/consul/test/integration/consul-container/libs/assert"
-	libcluster "github.com/hashicorp/consul/test/integration/consul-container/libs/cluster"
-	libservice "github.com/hashicorp/consul/test/integration/consul-container/libs/service"
-	libtopology "github.com/hashicorp/consul/test/integration/consul-container/libs/topology"
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/utils"
+	libassert "github.com/dhiaayachi/consul/test/integration/consul-container/libs/assert"
+	libcluster "github.com/dhiaayachi/consul/test/integration/consul-container/libs/cluster"
+	libservice "github.com/dhiaayachi/consul/test/integration/consul-container/libs/service"
+	libtopology "github.com/dhiaayachi/consul/test/integration/consul-container/libs/topology"
+	"github.com/dhiaayachi/consul/test/integration/consul-container/libs/utils"
 )
 
 const externalServerName = libservice.StaticServerServiceName

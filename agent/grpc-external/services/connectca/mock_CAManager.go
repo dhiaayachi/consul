@@ -3,10 +3,10 @@
 package connectca
 
 import (
-	acl "github.com/hashicorp/consul/acl"
+	acl "github.com/dhiaayachi/consul/acl"
 	mock "github.com/stretchr/testify/mock"
 
-	structs "github.com/hashicorp/consul/agent/structs"
+	structs "github.com/dhiaayachi/consul/agent/structs"
 
 	x509 "crypto/x509"
 )

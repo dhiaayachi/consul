@@ -9,9 +9,9 @@ import (
 
 	"github.com/hashicorp/raft"
 
-	"github.com/hashicorp/consul/agent/checks"
-	"github.com/hashicorp/consul/agent/consul"
-	"github.com/hashicorp/consul/version"
+	"github.com/dhiaayachi/consul/agent/checks"
+	"github.com/dhiaayachi/consul/agent/consul"
+	"github.com/dhiaayachi/consul/version"
 )
 
 // DefaultSource is the default agent configuration.

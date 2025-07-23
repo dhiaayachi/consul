@@ -10,9 +10,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/lib"
+	"github.com/dhiaayachi/consul/agent/connect"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/lib"
 )
 
 // caChangeJitterWindow is the time over which we spread each round of retries
@@ -76,7 +76,7 @@ func (m *Manager) attemptLeafRefresh(
 	// Any prior CA rotations should've already expired the cert.
 	// All we need to do is check whether the current CA is the one that signed the leaf. If not, generate a new leaf.
 	// This is not a perfect solution (as a CA rotation update can be missed) but it should take care of instances like
-	// see https://github.com/hashicorp/consul/issues/10871, https://github.com/hashicorp/consul/issues/9862
+	// see https://github.com/dhiaayachi/consul/issues/10871, https://github.com/dhiaayachi/consul/issues/9862
 	// This seems to me like a hack, so maybe we can revisit the caching/ fetching logic in this case
 	if req.MustRevalidate {
 		roots, err := m.rootsReader.Get()

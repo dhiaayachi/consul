@@ -9,15 +9,15 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/lib/decode"
 	jsonpatch "github.com/evanphx/json-patch"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/lib/decode"
 	"github.com/hashicorp/hcl"
 	"github.com/mitchellh/mapstructure"
 	"github.com/testcontainers/testcontainers-go"
 	"google.golang.org/grpc"
 
-	"github.com/hashicorp/consul/test/integration/consul-container/libs/utils"
+	"github.com/dhiaayachi/consul/test/integration/consul-container/libs/utils"
 )
 
 // Agent represent a Consul agent abstraction

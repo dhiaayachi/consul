@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	cachetype "github.com/hashicorp/consul/agent/cache-types"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/internal/dnsutil"
+	cachetype "github.com/dhiaayachi/consul/agent/cache-types"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/internal/dnsutil"
 )
 
 // preparedQueryCreateResponse is used to wrap the query ID.

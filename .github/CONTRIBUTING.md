@@ -23,7 +23,7 @@ work on an issue, comment on it first and tell us the approach you want to take.
 * Increase our test coverage.
 * Fix a [bug](https://github.com/hashicorp/consul/labels/type/bug).
 * Implement a requested [enhancement](https://github.com/hashicorp/consul/labels/type/enhancement).
-* Improve our documentation and tutorials. Consul's [Documentation](https://developer.hashicorp.com/consul/docs) and [api godoc](https://godoc.org/github.com/hashicorp/consul/api)
+* Improve our documentation and tutorials. Consul's [Documentation](https://developer.hashicorp.com/consul/docs) and [api godoc](https://godoc.org/github.com/dhiaayachi/consul/api)
 are deployed from this repo.
 * Respond to questions about usage on the issue tracker or the Consul section of the [HashiCorp forum]: (https://discuss.hashicorp.com/c/consul)
 
@@ -96,7 +96,7 @@ import (
 	"github.com/hashicorp/go-cleanhttp"
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/hashicorp/consul/api"
+	"github.com/dhiaayachi/consul/api"
 	"github.com/hashicorp/consul/lib"
 )
 ```

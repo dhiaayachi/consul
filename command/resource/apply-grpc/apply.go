@@ -12,8 +12,8 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	"github.com/hashicorp/consul/command/resource"
-	"github.com/hashicorp/consul/command/resource/client"
+	"github.com/dhiaayachi/consul/command/resource"
+	"github.com/dhiaayachi/consul/command/resource/client"
 )
 
 func New(ui cli.Ui) *cmd {

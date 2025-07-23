@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/structs"
 )
 
 func groupedEndpoints(logger hclog.Logger, locality *structs.Locality, policy *structs.DiscoveryPrioritizeByLocality, csns structs.CheckServiceNodes) ([]structs.CheckServiceNodes, error) {

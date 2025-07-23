@@ -11,10 +11,10 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	svc "github.com/hashicorp/consul/agent/grpc-external/services/resource"
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	pbdemov2 "github.com/hashicorp/consul/proto/private/pbdemo/v2"
+	svc "github.com/dhiaayachi/consul/agent/grpc-external/services/resource"
+	"github.com/dhiaayachi/consul/internal/resource"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
+	pbdemov2 "github.com/dhiaayachi/consul/proto/private/pbdemo/v2"
 )
 
 // Common test structs and test cases shared by the Write and MutateAndValidate RPCs

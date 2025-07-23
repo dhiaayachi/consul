@@ -11,10 +11,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hashicorp/consul/command/flags"
-	"github.com/hashicorp/consul/command/tls"
-	"github.com/hashicorp/consul/lib/file"
-	"github.com/hashicorp/consul/tlsutil"
+	"github.com/dhiaayachi/consul/command/flags"
+	"github.com/dhiaayachi/consul/command/tls"
+	"github.com/dhiaayachi/consul/lib/file"
+	"github.com/dhiaayachi/consul/tlsutil"
 	"github.com/mitchellh/cli"
 )
 

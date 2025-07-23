@@ -13,10 +13,10 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/hashicorp/consul/agent/config"
-	"github.com/hashicorp/consul/agent/hcp/bootstrap"
-	"github.com/hashicorp/consul/agent/hcp/bootstrap/constants"
-	hcpclient "github.com/hashicorp/consul/agent/hcp/client"
+	"github.com/dhiaayachi/consul/agent/config"
+	"github.com/dhiaayachi/consul/agent/hcp/bootstrap"
+	"github.com/dhiaayachi/consul/agent/hcp/bootstrap/constants"
+	hcpclient "github.com/dhiaayachi/consul/agent/hcp/client"
 )
 
 type ConfigLoader func(source config.Source) (config.LoadResult, error)

@@ -10,9 +10,9 @@ import (
 
 	"github.com/mitchellh/hashstructure"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/cacheshim"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/cacheshim"
+	"github.com/dhiaayachi/consul/agent/structs"
 )
 
 // ConnectCALeafRequest is the cache.Request implementation for the

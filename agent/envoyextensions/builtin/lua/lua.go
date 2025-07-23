@@ -16,8 +16,8 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/envoyextensions/extensioncommon"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/envoyextensions/extensioncommon"
 )
 
 var _ extensioncommon.BasicExtension = (*lua)(nil)

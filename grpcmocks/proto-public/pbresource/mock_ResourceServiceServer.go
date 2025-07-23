@@ -5,7 +5,7 @@ package mockpbresource
 import (
 	context "context"
 
-	pbresource "github.com/hashicorp/consul/proto-public/pbresource"
+	pbresource "github.com/dhiaayachi/consul/proto-public/pbresource"
 	mock "github.com/stretchr/testify/mock"
 )
 

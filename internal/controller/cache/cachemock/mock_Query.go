@@ -3,7 +3,7 @@
 package cachemock
 
 import (
-	cache "github.com/hashicorp/consul/internal/controller/cache"
+	cache "github.com/dhiaayachi/consul/internal/controller/cache"
 	mock "github.com/stretchr/testify/mock"
 )
 

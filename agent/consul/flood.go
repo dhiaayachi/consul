@@ -6,7 +6,7 @@ package consul
 import (
 	"time"
 
-	"github.com/hashicorp/consul/agent/router"
+	"github.com/dhiaayachi/consul/agent/router"
 	"github.com/hashicorp/serf/serf"
 )
 

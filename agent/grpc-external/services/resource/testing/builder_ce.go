@@ -8,9 +8,9 @@ package testing
 import (
 	"github.com/hashicorp/go-hclog"
 
-	svc "github.com/hashicorp/consul/agent/grpc-external/services/resource"
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	svc "github.com/dhiaayachi/consul/agent/grpc-external/services/resource"
+	"github.com/dhiaayachi/consul/internal/resource"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 )
 
 type Builder struct {

@@ -16,12 +16,12 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent/config"
-	"github.com/hashicorp/consul/agent/hcp"
-	"github.com/hashicorp/consul/agent/hcp/bootstrap"
-	"github.com/hashicorp/consul/agent/hcp/bootstrap/constants"
-	hcpclient "github.com/hashicorp/consul/agent/hcp/client"
-	"github.com/hashicorp/consul/lib"
+	"github.com/dhiaayachi/consul/agent/config"
+	"github.com/dhiaayachi/consul/agent/hcp"
+	"github.com/dhiaayachi/consul/agent/hcp/bootstrap"
+	"github.com/dhiaayachi/consul/agent/hcp/bootstrap/constants"
+	hcpclient "github.com/dhiaayachi/consul/agent/hcp/client"
+	"github.com/dhiaayachi/consul/lib"
 )
 
 func TestBootstrapConfigLoader(t *testing.T) {

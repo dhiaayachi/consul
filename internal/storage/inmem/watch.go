@@ -7,11 +7,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/consul/stream"
-	"github.com/hashicorp/consul/internal/storage"
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	"github.com/hashicorp/consul/proto/private/pbsubscribe"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/consul/stream"
+	"github.com/dhiaayachi/consul/internal/storage"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/proto/private/pbsubscribe"
 )
 
 // Watch implements the storage.Watch interface using a stream.Subscription.
@@ -145,7 +145,6 @@ func (s tenancySubject) String() string {
 	return s.resourceType.Group + indexSeparator +
 		s.resourceType.Kind + indexSeparator +
 		s.tenancy.Partition + indexSeparator +
-
 		s.tenancy.Namespace
 }
 

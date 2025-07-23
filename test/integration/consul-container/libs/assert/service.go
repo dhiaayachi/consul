@@ -17,9 +17,9 @@ import (
 
 	"github.com/hashicorp/go-cleanhttp"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
-	libservice "github.com/hashicorp/consul/test/integration/consul-container/libs/service"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/sdk/testutil/retry"
+	libservice "github.com/dhiaayachi/consul/test/integration/consul-container/libs/service"
 )
 
 const (

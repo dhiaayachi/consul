@@ -16,7 +16,7 @@ import (
 	metricpb "go.opentelemetry.io/proto/otlp/metrics/v1"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/hashicorp/consul/agent/hcp/telemetry"
+	"github.com/dhiaayachi/consul/agent/hcp/telemetry"
 )
 
 const (

@@ -18,11 +18,11 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-uuid"
 
-	"github.com/hashicorp/consul/agent/hcp/bootstrap/constants"
-	hcpclient "github.com/hashicorp/consul/agent/hcp/client"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/tlsutil"
+	"github.com/dhiaayachi/consul/agent/hcp/bootstrap/constants"
+	hcpclient "github.com/dhiaayachi/consul/agent/hcp/client"
+	"github.com/dhiaayachi/consul/lib"
+	"github.com/dhiaayachi/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/tlsutil"
 )
 
 func Test_loadPersistedBootstrapConfig(t *testing.T) {

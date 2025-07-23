@@ -3,7 +3,7 @@
 
 package resource
 
-import "github.com/hashicorp/consul/acl"
+import "github.com/dhiaayachi/consul/acl"
 
 // NoOpACLListHook is a common function that can be used if no special list permission is required for a resource.
 func NoOpACLListHook(_ acl.Authorizer, _ *acl.AuthorizerContext) error {

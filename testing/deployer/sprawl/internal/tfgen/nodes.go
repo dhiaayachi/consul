@@ -6,7 +6,7 @@ package tfgen
 import (
 	"fmt"
 
-	"github.com/hashicorp/consul/testing/deployer/topology"
+	"github.com/dhiaayachi/consul/testing/deployer/topology"
 )
 
 type terraformPod struct {

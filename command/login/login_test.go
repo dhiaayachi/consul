@@ -15,15 +15,15 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul-awsauth/iamauthtest"
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/agent/consul/authmethod/kubeauth"
-	"github.com/hashicorp/consul/agent/consul/authmethod/testauth"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/command/acl"
-	"github.com/hashicorp/consul/internal/go-sso/oidcauth/oidcauthtest"
-	"github.com/hashicorp/consul/sdk/testutil"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/dhiaayachi/consul-awsauth/iamauthtest"
+	"github.com/dhiaayachi/consul/agent"
+	"github.com/dhiaayachi/consul/agent/consul/authmethod/kubeauth"
+	"github.com/dhiaayachi/consul/agent/consul/authmethod/testauth"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/command/acl"
+	"github.com/dhiaayachi/consul/internal/go-sso/oidcauth/oidcauthtest"
+	"github.com/dhiaayachi/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/testrpc"
 )
 
 func TestLoginCommand_noTabs(t *testing.T) {

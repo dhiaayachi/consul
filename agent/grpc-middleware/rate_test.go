@@ -16,11 +16,11 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/status"
 
-	pbacl "github.com/hashicorp/consul/proto-public/pbacl"
+	pbacl "github.com/dhiaayachi/consul/proto-public/pbacl"
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/agent/consul/rate"
+	"github.com/dhiaayachi/consul/agent/consul/rate"
 )
 
 func TestServerRateLimiterMiddleware_Integration(t *testing.T) {

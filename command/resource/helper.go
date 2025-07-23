@@ -17,11 +17,11 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	"github.com/hashicorp/consul/agent/consul"
-	"github.com/hashicorp/consul/command/helpers"
-	"github.com/hashicorp/consul/command/resource/client"
-	"github.com/hashicorp/consul/internal/resourcehcl"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/agent/consul"
+	"github.com/dhiaayachi/consul/command/helpers"
+	"github.com/dhiaayachi/consul/command/resource/client"
+	"github.com/dhiaayachi/consul/internal/resourcehcl"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 )
 
 const JSON_INDENT = "  "

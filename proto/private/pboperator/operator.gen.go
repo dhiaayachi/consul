@@ -2,7 +2,7 @@
 
 package pboperator
 
-import "github.com/hashicorp/consul/api"
+import "github.com/dhiaayachi/consul/api"
 
 func TransferLeaderResponseToAPI(s *TransferLeaderResponse, t *api.TransferLeaderResponse) {
 	if s == nil {

@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/sdk/testutil"
 )
 
 type V2WriteRequest struct {

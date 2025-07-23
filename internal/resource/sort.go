@@ -3,7 +3,7 @@
 
 package resource
 
-import "github.com/hashicorp/consul/proto-public/pbresource"
+import "github.com/dhiaayachi/consul/proto-public/pbresource"
 
 func LessReference(a, b *pbresource.Reference) bool {
 	return compareReference(a, b) < 0

@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/sdk/testutil"
 )
 
 func TestSegments(t *testing.T) {

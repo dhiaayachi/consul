@@ -11,9 +11,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	libcluster "github.com/hashicorp/consul/test/integration/consul-container/libs/cluster"
-	libtopology "github.com/hashicorp/consul/test/integration/consul-container/libs/topology"
-	client "github.com/hashicorp/consul/test/integration/consul-container/test/resource/http_api/client"
+	libcluster "github.com/dhiaayachi/consul/test/integration/consul-container/libs/cluster"
+	libtopology "github.com/dhiaayachi/consul/test/integration/consul-container/libs/topology"
+	client "github.com/dhiaayachi/consul/test/integration/consul-container/test/resource/http_api/client"
 )
 
 func makeClusterConfig(numOfServers int, numOfClients int, aclEnabled bool) *libtopology.ClusterConfig {

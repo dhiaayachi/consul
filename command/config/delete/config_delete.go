@@ -8,8 +8,8 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/hashicorp/consul/command/flags"
-	"github.com/hashicorp/consul/command/helpers"
+	"github.com/dhiaayachi/consul/command/flags"
+	"github.com/dhiaayachi/consul/command/helpers"
 	"github.com/mitchellh/cli"
 )
 

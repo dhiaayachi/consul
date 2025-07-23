@@ -17,8 +17,8 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/agent/metadata"
-	"github.com/hashicorp/consul/logging"
+	"github.com/dhiaayachi/consul/agent/metadata"
+	"github.com/dhiaayachi/consul/logging"
 )
 
 // ManagerSerfCluster is an interface wrapper around Serf in order to make this

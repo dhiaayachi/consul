@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/dhiaayachi/consul/troubleshoot/validate"
 	envoy_admin_v3 "github.com/envoyproxy/go-control-plane/envoy/admin/v3"
-	"github.com/hashicorp/consul/troubleshoot/validate"
 	"google.golang.org/protobuf/encoding/protojson"
 )
 

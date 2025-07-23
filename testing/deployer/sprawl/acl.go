@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/consul/api"
+	"github.com/dhiaayachi/consul/api"
 
-	"github.com/hashicorp/consul/testing/deployer/sprawl/internal/secrets"
-	"github.com/hashicorp/consul/testing/deployer/topology"
+	"github.com/dhiaayachi/consul/testing/deployer/sprawl/internal/secrets"
+	"github.com/dhiaayachi/consul/testing/deployer/topology"
 )
 
 // TODO: fix this by checking that a token/policy works on ALL servers before

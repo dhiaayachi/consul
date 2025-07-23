@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/hashicorp/consul/proto/private/pbautoconf"
+	"github.com/dhiaayachi/consul/proto/private/pbautoconf"
 	"google.golang.org/protobuf/encoding/protojson"
 )
 

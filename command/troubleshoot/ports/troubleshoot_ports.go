@@ -6,11 +6,11 @@ package ports
 import (
 	"flag"
 	"fmt"
-	"github.com/hashicorp/consul/troubleshoot/ports"
+	"github.com/dhiaayachi/consul/troubleshoot/ports"
 	"os"
 
-	"github.com/hashicorp/consul/command/cli"
-	"github.com/hashicorp/consul/command/flags"
+	"github.com/dhiaayachi/consul/command/cli"
+	"github.com/dhiaayachi/consul/command/flags"
 )
 
 func New(ui cli.Ui) *cmd {

@@ -6,7 +6,7 @@ package util
 import (
 	"fmt"
 
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 )
 
 // functions copied out of consul:internal/resource/*.go

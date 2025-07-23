@@ -15,10 +15,10 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/agent/connect"
+	"github.com/dhiaayachi/consul/sdk/testutil"
 
-	caCreate "github.com/hashicorp/consul/command/tls/ca/create"
+	caCreate "github.com/dhiaayachi/consul/command/tls/ca/create"
 )
 
 func TestValidateCommand_noTabs(t *testing.T) {

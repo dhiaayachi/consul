@@ -7,14 +7,14 @@ toolchain go1.23.11
 require (
 	fortio.org/fortio v1.54.0
 	github.com/avast/retry-go v3.0.0+incompatible
+	github.com/dhiaayachi/consul/api v1.32.1
+	github.com/dhiaayachi/consul/envoyextensions v0.7.8
+	github.com/dhiaayachi/consul/sdk v0.16.2
 	github.com/docker/docker v24.0.5+incompatible
 	github.com/docker/go-connections v0.4.0
 	github.com/evanphx/json-patch v4.12.0+incompatible
 	github.com/go-jose/go-jose/v3 v3.0.4
 	github.com/hashicorp/consul v1.21.2
-	github.com/hashicorp/consul/api v1.32.1
-	github.com/hashicorp/consul/envoyextensions v0.7.8
-	github.com/hashicorp/consul/sdk v0.16.2
 	github.com/hashicorp/consul/testing/deployer v0.0.0-20230811171106-4a0afb5d1373
 	github.com/hashicorp/go-cleanhttp v0.5.2
 	github.com/hashicorp/go-multierror v1.1.1
@@ -109,10 +109,10 @@ require (
 )
 
 replace (
+	github.com/dhiaayachi/consul/api => ../../../api
+	github.com/dhiaayachi/consul/envoyextensions => ../../../envoyextensions
+	github.com/dhiaayachi/consul/sdk => ../../../sdk
 	github.com/hashicorp/consul => ../../..
-	github.com/hashicorp/consul/api => ../../../api
-	github.com/hashicorp/consul/envoyextensions => ../../../envoyextensions
 	github.com/hashicorp/consul/proto-public => ../../../proto-public
-	github.com/hashicorp/consul/sdk => ../../../sdk
 	github.com/hashicorp/consul/testing/deployer => ../../../testing/deployer
 )

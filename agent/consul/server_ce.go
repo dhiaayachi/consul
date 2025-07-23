@@ -16,13 +16,13 @@ import (
 	"github.com/hashicorp/serf/coordinate"
 	"github.com/hashicorp/serf/serf"
 
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/consul/reporting"
-	resourcegrpc "github.com/hashicorp/consul/agent/grpc-external/services/resource"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/internal/gossip/librtt"
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/logging"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/consul/reporting"
+	resourcegrpc "github.com/dhiaayachi/consul/agent/grpc-external/services/resource"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/internal/gossip/librtt"
+	"github.com/dhiaayachi/consul/internal/resource"
+	"github.com/dhiaayachi/consul/logging"
 )
 
 // runEnterpriseRateLimiterConfigEntryController start the rate limiter config controller

@@ -21,11 +21,11 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-uuid"
 
-	"github.com/hashicorp/consul/agent/connect"
-	"github.com/hashicorp/consul/agent/hcp/bootstrap/constants"
-	hcpclient "github.com/hashicorp/consul/agent/hcp/client"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/lib/retry"
+	"github.com/dhiaayachi/consul/agent/connect"
+	"github.com/dhiaayachi/consul/agent/hcp/bootstrap/constants"
+	hcpclient "github.com/dhiaayachi/consul/agent/hcp/client"
+	"github.com/dhiaayachi/consul/lib"
+	"github.com/dhiaayachi/consul/lib/retry"
 )
 
 const (

@@ -6,7 +6,7 @@ package dns
 import (
 	"context"
 	"fmt"
-	agentdns "github.com/hashicorp/consul/agent/dns"
+	agentdns "github.com/dhiaayachi/consul/agent/dns"
 	"net"
 
 	"github.com/hashicorp/go-hclog"
@@ -16,7 +16,7 @@ import (
 	"google.golang.org/grpc/peer"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/consul/proto-public/pbdns"
+	"github.com/dhiaayachi/consul/proto-public/pbdns"
 )
 
 type LocalAddr struct {

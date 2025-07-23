@@ -6,7 +6,7 @@ package resource
 import (
 	"github.com/mitchellh/cli"
 
-	"github.com/hashicorp/consul/command/flags"
+	"github.com/dhiaayachi/consul/command/flags"
 )
 
 func New() *cmd {

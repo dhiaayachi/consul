@@ -2,7 +2,7 @@
 
 package pbservice
 
-import "github.com/hashicorp/consul/agent/structs"
+import "github.com/dhiaayachi/consul/agent/structs"
 
 func NodeToStructs(s *Node, t *structs.Node) {
 	if s == nil {

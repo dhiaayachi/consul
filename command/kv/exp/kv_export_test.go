@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/consul/agent"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/command/kv/impexp"
+	"github.com/dhiaayachi/consul/agent"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/command/kv/impexp"
 	"github.com/mitchellh/cli"
 )
 

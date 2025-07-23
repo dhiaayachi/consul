@@ -12,12 +12,12 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/agent/cache"
-	"github.com/hashicorp/consul/agent/config"
-	"github.com/hashicorp/consul/agent/token"
-	"github.com/hashicorp/consul/lib/retry"
-	"github.com/hashicorp/consul/logging"
-	"github.com/hashicorp/consul/proto/private/pbautoconf"
+	"github.com/dhiaayachi/consul/agent/cache"
+	"github.com/dhiaayachi/consul/agent/config"
+	"github.com/dhiaayachi/consul/agent/token"
+	"github.com/dhiaayachi/consul/lib/retry"
+	"github.com/dhiaayachi/consul/logging"
+	"github.com/dhiaayachi/consul/proto/private/pbautoconf"
 )
 
 // AutoConfig is all the state necessary for being able to parse a configuration

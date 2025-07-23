@@ -16,7 +16,7 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	"github.com/hashicorp/consul/internal/protohcl/testproto"
+	"github.com/dhiaayachi/consul/internal/protohcl/testproto"
 	"github.com/hashicorp/hcl/v2/hclparse"
 )
 

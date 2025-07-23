@@ -6,8 +6,8 @@ package cache
 import (
 	"google.golang.org/protobuf/proto"
 
-	"github.com/hashicorp/consul/internal/resource"
-	"github.com/hashicorp/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/internal/resource"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
 )
 
 // Get retrieves a single resource from the specified index that matches the provided args.

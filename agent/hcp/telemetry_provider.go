@@ -19,10 +19,10 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-retryablehttp"
 
-	"github.com/hashicorp/consul/agent/hcp/client"
-	"github.com/hashicorp/consul/agent/hcp/config"
-	"github.com/hashicorp/consul/agent/hcp/telemetry"
-	"github.com/hashicorp/consul/version"
+	"github.com/dhiaayachi/consul/agent/hcp/client"
+	"github.com/dhiaayachi/consul/agent/hcp/config"
+	"github.com/dhiaayachi/consul/agent/hcp/telemetry"
+	"github.com/dhiaayachi/consul/version"
 )
 
 var (

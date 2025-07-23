@@ -6,9 +6,9 @@ package local
 import (
 	"context"
 
-	"github.com/hashicorp/consul/agent/grpc-external/limiter"
-	"github.com/hashicorp/consul/agent/proxycfg"
-	structs "github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/grpc-external/limiter"
+	"github.com/dhiaayachi/consul/agent/proxycfg"
+	structs "github.com/dhiaayachi/consul/agent/structs"
 )
 
 // ConfigSource wraps a proxycfg.Manager to create watches on services

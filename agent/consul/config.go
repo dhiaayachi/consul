@@ -15,14 +15,14 @@ import (
 	"github.com/hashicorp/raft"
 	"github.com/hashicorp/serf/serf"
 
-	"github.com/hashicorp/consul/agent/checks"
-	consulrate "github.com/hashicorp/consul/agent/consul/rate"
-	hcpconfig "github.com/hashicorp/consul/agent/hcp/config"
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/internal/gossip/libserf"
-	"github.com/hashicorp/consul/tlsutil"
-	"github.com/hashicorp/consul/types"
-	"github.com/hashicorp/consul/version"
+	"github.com/dhiaayachi/consul/agent/checks"
+	consulrate "github.com/dhiaayachi/consul/agent/consul/rate"
+	hcpconfig "github.com/dhiaayachi/consul/agent/hcp/config"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/internal/gossip/libserf"
+	"github.com/dhiaayachi/consul/tlsutil"
+	"github.com/dhiaayachi/consul/types"
+	"github.com/dhiaayachi/consul/version"
 )
 
 const (

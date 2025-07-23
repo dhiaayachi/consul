@@ -12,9 +12,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/api/watch"
-	"github.com/hashicorp/consul/logging"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/api/watch"
+	"github.com/dhiaayachi/consul/logging"
 	"github.com/hashicorp/go-hclog"
 	"golang.org/x/net/http2"
 )
@@ -64,7 +64,7 @@ type Config struct {
 	Logger hclog.Logger
 	// ServerNextProtos are the protocols advertised via ALPN. If nil, defaults to
 	// ["h2"] for backwards compatibility. Usually there is no need to change this,
-	// see https://github.com/hashicorp/consul/issues/4466 for some discussion on why
+	// see https://github.com/dhiaayachi/consul/issues/4466 for some discussion on why
 	// this can be useful.
 	ServerNextProtos []string
 }

@@ -6,7 +6,7 @@
 package consul
 
 import (
-	"github.com/hashicorp/consul/agent/metadata"
+	"github.com/dhiaayachi/consul/agent/metadata"
 	autopilot "github.com/hashicorp/raft-autopilot"
 )
 

@@ -14,11 +14,11 @@ import (
 	"github.com/miekg/dns"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/consul/lib"
-	"github.com/hashicorp/consul/sdk/testutil/retry"
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/api"
+	"github.com/dhiaayachi/consul/lib"
+	"github.com/dhiaayachi/consul/sdk/testutil/retry"
+	"github.com/dhiaayachi/consul/testrpc"
 )
 
 func TestDNS_ServiceLookupNoMultiCNAME(t *testing.T) {
@@ -367,7 +367,7 @@ func TestDNS_ServiceLookup(t *testing.T) {
 
 // TestDNS_ServiceAddressWithTagLookup tests some specific cases that Nomad would exercise,
 // Like registering a service w/o a Node. https://github.com/hashicorp/nomad/blob/1174019676ff3d65b39323eb0c7234fb1e09b80c/command/agent/consul/service_client.go#L1366-L1381
-// Errors with this were reported in https://github.com/hashicorp/consul/issues/21325#issuecomment-2166845574
+// Errors with this were reported in https://github.com/dhiaayachi/consul/issues/21325#issuecomment-2166845574
 // Also we test that only one tag is valid in the URL.
 func TestDNS_ServiceAddressWithTagLookup(t *testing.T) {
 	if testing.Short() {

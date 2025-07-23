@@ -17,8 +17,8 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/consul/proto-public/pbresource"
-	"github.com/hashicorp/consul/testing/deployer/util"
+	"github.com/dhiaayachi/consul/proto-public/pbresource"
+	"github.com/dhiaayachi/consul/testing/deployer/util"
 )
 
 const DockerPrefix = "cslc" // ConSuLCluster

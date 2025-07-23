@@ -6,8 +6,8 @@
 package discoverychain
 
 import (
-	"github.com/hashicorp/consul/acl"
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/acl"
+	"github.com/dhiaayachi/consul/agent/structs"
 )
 
 func (c *compiler) GetEnterpriseMeta() *acl.EnterpriseMeta {

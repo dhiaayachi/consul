@@ -6,7 +6,7 @@ package pbsubscribe
 import (
 	"time"
 
-	"github.com/hashicorp/consul/acl"
+	"github.com/dhiaayachi/consul/acl"
 )
 
 // RequestDatacenter implements structs.RPCInfo

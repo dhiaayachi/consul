@@ -8,7 +8,7 @@ package state
 import (
 	"github.com/hashicorp/go-memdb"
 
-	"github.com/hashicorp/consul/agent/structs"
+	"github.com/dhiaayachi/consul/agent/structs"
 )
 
 type EnterpriseServiceUsage struct{}

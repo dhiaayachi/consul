@@ -12,7 +12,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/hashicorp/consul/testrpc"
+	"github.com/dhiaayachi/consul/testrpc"
 )
 
 func TestAgent_Self_VersionLacksEnt(t *testing.T) {

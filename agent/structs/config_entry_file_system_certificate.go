@@ -4,7 +4,7 @@
 package structs
 
 import (
-	"github.com/hashicorp/consul/acl"
+	"github.com/dhiaayachi/consul/acl"
 )
 
 // FileSystemCertificateConfigEntry manages the configuration for a certificate

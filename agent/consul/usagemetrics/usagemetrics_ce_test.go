@@ -12,8 +12,8 @@ import (
 	"github.com/armon/go-metrics"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent/consul/state"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/agent/consul/state"
+	"github.com/dhiaayachi/consul/sdk/testutil"
 )
 
 func newStateStore() (*state.Store, error) {

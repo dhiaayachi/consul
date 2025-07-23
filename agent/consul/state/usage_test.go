@@ -11,8 +11,8 @@ import (
 	memdb "github.com/hashicorp/go-memdb"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/consul/agent/structs"
-	"github.com/hashicorp/consul/sdk/testutil"
+	"github.com/dhiaayachi/consul/agent/structs"
+	"github.com/dhiaayachi/consul/sdk/testutil"
 )
 
 func TestStateStore_Usage_NodeUsage(t *testing.T) {
