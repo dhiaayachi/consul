@@ -50,7 +50,8 @@ const (
 	ProxyConfigGlobal string = "global"
 	MeshConfigMesh    string = "mesh"
 
-	LLMAgent string = "llm-agent"
+	LLMAgent                string = "llm-agent"
+	LLMAgentExternalServers string = "llm-agent-external-servers"
 
 	DefaultServiceProtocol = "tcp"
 
@@ -853,6 +854,9 @@ func MakeConfigEntry(kind, name string) (ConfigEntry, error) {
 		return &JWTProviderConfigEntry{Name: name}, nil
 	case LLMAgent:
 		return &LLMAgentConfigEntry{Name: name}, nil
+	case LLMAgentExternalServers:
+		return &LLMAgentExternalServersConfigEntry{}, nil
+
 	default:
 		return nil, fmt.Errorf("invalid config entry kind: %s", kind)
 	}

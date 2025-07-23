@@ -1,6 +1,8 @@
 module github.com/dhiaayachi/consul
 
-go 1.23.8
+go 1.23.10
+
+toolchain go1.23.11
 
 replace (
 	github.com/dhiaayachi/consul/api => ./api
@@ -39,13 +41,14 @@ require (
 	github.com/google/tcpproxy v0.0.0-20180808230851-dfa16c61dad2
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/hashi-derek/grpc-proxy v0.0.0-20231207191910-191266484d75
-	github.com/dhiaayachi/consul-awsauth v0.0.0-20250130185352-0a5f57fe920a
-	github.com/dhiaayachi/consul-net-rpc v0.0.0-20221205195236-156cfab66a69
-	github.com/dhiaayachi/consul/api v1.31.2
-	github.com/dhiaayachi/consul/envoyextensions v0.7.3
-	github.com/dhiaayachi/consul/proto-public v0.6.2
-	github.com/dhiaayachi/consul/sdk v0.16.1
-	github.com/dhiaayachi/consul/troubleshoot v0.7.1
+	github.com/hashicorp/consul v1.21.2
+	github.com/hashicorp/consul-awsauth v0.0.0-20250327105253-7d51f01ee71a
+	github.com/hashicorp/consul-net-rpc v0.0.0-20241115170654-e7bb6e5a1d6d
+	github.com/hashicorp/consul/api v1.32.1
+	github.com/hashicorp/consul/envoyextensions v0.7.8
+	github.com/hashicorp/consul/proto-public v0.6.4
+	github.com/hashicorp/consul/sdk v0.16.2
+	github.com/hashicorp/consul/troubleshoot v0.7.5
 	github.com/hashicorp/go-bexpr v0.1.2
 	github.com/hashicorp/go-checkpoint v0.5.0
 	github.com/hashicorp/go-cleanhttp v0.5.2
@@ -291,7 +294,6 @@ require (
 	google.golang.org/genproto/googleapis/api v0.0.0-20240814211410-ddb44dafa142 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.66.2 // indirect
-	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce // indirect
 	gopkg.in/resty.v1 v1.12.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect

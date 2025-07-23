@@ -29,15 +29,16 @@ const (
 	SamenessGroup      string = "sameness-group"
 	RateLimitIPConfig  string = "control-plane-request-limit"
 
-	ProxyConfigGlobal     string = "global"
-	MeshConfigMesh        string = "mesh"
-	APIGateway            string = "api-gateway"
-	TCPRoute              string = "tcp-route"
-	FileSystemCertificate string = "file-system-certificate"
-	InlineCertificate     string = "inline-certificate"
-	HTTPRoute             string = "http-route"
-	JWTProvider           string = "jwt-provider"
-	LLMAgent              string = "llm-agent"
+	ProxyConfigGlobal       string = "global"
+	MeshConfigMesh          string = "mesh"
+	APIGateway              string = "api-gateway"
+	TCPRoute                string = "tcp-route"
+	FileSystemCertificate   string = "file-system-certificate"
+	InlineCertificate       string = "inline-certificate"
+	HTTPRoute               string = "http-route"
+	JWTProvider             string = "jwt-provider"
+	LLMAgent                string = "llm-agent"
+	LLMAgentExternalServers string = "llm-agent-external-servers"
 )
 
 const (
@@ -449,6 +450,8 @@ func makeConfigEntry(kind, name string) (ConfigEntry, error) {
 		return &APIGatewayConfigEntry{Kind: kind, Name: name}, nil
 	case LLMAgent:
 		return &LLMAgentConfigEntry{}, nil
+	case LLMAgentExternalServers:
+		return &LLMAgentExternalServersConfigEntry{}, nil
 	case TCPRoute:
 		return &TCPRouteConfigEntry{Kind: kind, Name: name}, nil
 	case FileSystemCertificate:

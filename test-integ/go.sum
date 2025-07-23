@@ -270,8 +270,8 @@ github.com/rboyer/blankspace v0.2.1 h1:GzFPETXKOhuwS/jPRUTFIYo9I+RhafEIhnbPByg8S
 github.com/rboyer/blankspace v0.2.1/go.mod h1:GhnCkDlx1SYD6m4XCde73ncQ8pFTLSJvlCNmCMg2moQ=
 github.com/rboyer/safeio v0.2.3 h1:gUybicx1kp8nuM4vO0GA5xTBX58/OBd8MQuErBfDxP8=
 github.com/rboyer/safeio v0.2.3/go.mod h1:d7RMmt7utQBJZ4B7f0H/cU/EdZibQAU1Y8NWepK2dS8=
-github.com/rogpeppe/go-internal v1.10.0 h1:TMyTOH3F/DB16zRVcYyreMH6GnZZrwQVAoYjRBZyWFQ=
-github.com/rogpeppe/go-internal v1.10.0/go.mod h1:UQnix2H7Ngw/k4C5ijL5+65zddjncjaFoBhdsK/akog=
+github.com/rogpeppe/go-internal v1.8.1 h1:geMPLpDpQOgVyCg5z5GoRwLHepNdb71NXb67XFkP+Eg=
+github.com/rogpeppe/go-internal v1.8.1/go.mod h1:JeRgkft04UBgHMgCIwADu4Pn6Mtm5d4nPKWu0nJ5d+o=
 github.com/ryanuber/columnize v0.0.0-20160712163229-9b3edd62028f/go.mod h1:sm1tb6uqfes/u+d4ooFouqFdy9/2g9QGwK3SQygK0Ts=
 github.com/ryanuber/columnize v2.1.0+incompatible/go.mod h1:sm1tb6uqfes/u+d4ooFouqFdy9/2g9QGwK3SQygK0Ts=
 github.com/sean-/seed v0.0.0-20170313163322-e2103e2c3529 h1:nn5Wsu0esKSJiIVhscUtVbo7ada43DJhG55ua/hjS5I=

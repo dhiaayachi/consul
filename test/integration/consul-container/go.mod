@@ -1,6 +1,8 @@
 module github.com/hashicorp/consul/test/integration/consul-container
 
-go 1.23.8
+go 1.23.10
+
+toolchain go1.23.11
 
 require (
 	fortio.org/fortio v1.54.0
@@ -9,10 +11,10 @@ require (
 	github.com/docker/go-connections v0.4.0
 	github.com/evanphx/json-patch v4.12.0+incompatible
 	github.com/go-jose/go-jose/v3 v3.0.4
-	github.com/hashicorp/consul v1.16.1
-	github.com/hashicorp/consul/api v1.31.2
-	github.com/hashicorp/consul/envoyextensions v0.7.3
-	github.com/hashicorp/consul/sdk v0.16.1
+	github.com/hashicorp/consul v1.21.2
+	github.com/hashicorp/consul/api v1.32.1
+	github.com/hashicorp/consul/envoyextensions v0.7.8
+	github.com/hashicorp/consul/sdk v0.16.2
 	github.com/hashicorp/consul/testing/deployer v0.0.0-20230811171106-4a0afb5d1373
 	github.com/hashicorp/go-cleanhttp v0.5.2
 	github.com/hashicorp/go-multierror v1.1.1
@@ -60,7 +62,7 @@ require (
 	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/hashicorp/consul-server-connection-manager v0.1.4 // indirect
-	github.com/hashicorp/consul/proto-public v0.6.2 // indirect
+	github.com/hashicorp/consul/proto-public v0.6.4 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-hclog v1.6.3 // indirect
 	github.com/hashicorp/go-immutable-radix v1.3.1 // indirect
