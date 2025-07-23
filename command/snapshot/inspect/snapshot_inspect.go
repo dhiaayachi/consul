@@ -13,11 +13,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/dhiaayachi/consul-net-rpc/go-msgpack/codec"
 	"github.com/dhiaayachi/consul/agent/consul/fsm"
 	"github.com/dhiaayachi/consul/agent/structs"
 	"github.com/dhiaayachi/consul/command/flags"
 	"github.com/dhiaayachi/consul/snapshot"
+	"github.com/hashicorp/consul-net-rpc/go-msgpack/codec"
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/raft"
 	"github.com/mitchellh/cli"

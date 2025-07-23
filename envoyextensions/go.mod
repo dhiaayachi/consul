@@ -4,8 +4,8 @@ go 1.23.8
 
 replace (
 	github.com/dhiaayachi/consul/api => ../api
+	github.com/dhiaayachi/consul/proto-public => ../proto-public
 	github.com/dhiaayachi/consul/sdk => ../sdk
-	github.com/hashicorp/consul/proto-public => ../proto-public
 )
 
 retract v0.7.2 // tag was mutated

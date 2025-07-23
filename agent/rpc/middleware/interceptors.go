@@ -14,8 +14,8 @@ import (
 	"github.com/armon/go-metrics/prometheus"
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/dhiaayachi/consul-net-rpc/net/rpc"
 	rpcRate "github.com/dhiaayachi/consul/agent/consul/rate"
+	"github.com/hashicorp/consul-net-rpc/net/rpc"
 )
 
 // RPCTypeInternal identifies the "RPC" request as coming from some internal

@@ -1,12 +1,12 @@
-module github.com/hashicorp/consul/troubleshoot
+module github.com/dhiaayachi/consul/troubleshoot
 
 go 1.23.8
 
 replace (
 	github.com/dhiaayachi/consul/api => ../api
 	github.com/dhiaayachi/consul/envoyextensions => ../envoyextensions
+	github.com/dhiaayachi/consul/proto-public => ../proto-public
 	github.com/dhiaayachi/consul/sdk => ../sdk
-	github.com/hashicorp/consul/proto-public => ../proto-public
 )
 
 exclude (

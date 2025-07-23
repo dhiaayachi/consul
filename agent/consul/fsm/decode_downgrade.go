@@ -7,11 +7,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/dhiaayachi/consul-net-rpc/go-msgpack/codec"
 	"github.com/dhiaayachi/consul/agent/consul/state"
 	"github.com/dhiaayachi/consul/agent/structs"
 	"github.com/dhiaayachi/consul/lib"
 	"github.com/dhiaayachi/consul/proto/private/pbpeering"
+	"github.com/hashicorp/consul-net-rpc/go-msgpack/codec"
 )
 
 func IsEnterpriseData(namespace, partition string) bool {

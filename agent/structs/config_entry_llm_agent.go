@@ -69,7 +69,7 @@ type LLMAgentExternalServersConfigEntry struct {
 }
 
 func (L LLMAgentExternalServersConfigEntry) GetKind() string {
-	return L.Kind
+	return LLMAgentExternalServers
 }
 
 func (L LLMAgentExternalServersConfigEntry) GetName() string {
@@ -101,7 +101,7 @@ func (L LLMAgentExternalServersConfigEntry) GetEnterpriseMeta() *acl.EnterpriseM
 }
 
 func (L LLMAgentExternalServersConfigEntry) GetRaftIndex() *RaftIndex {
-	return L.GetRaftIndex()
+	return &RaftIndex{CreateIndex: L.CreateIndex, ModifyIndex: L.ModifyIndex}
 }
 
 func (L LLMAgentExternalServersConfigEntry) GetHash() uint64 {

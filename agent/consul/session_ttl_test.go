@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	msgpackrpc "github.com/dhiaayachi/consul-net-rpc/net-rpc-msgpackrpc"
 	"github.com/dhiaayachi/consul/agent/structs"
 	"github.com/dhiaayachi/consul/sdk/testutil/retry"
 	"github.com/dhiaayachi/consul/testrpc"
+	msgpackrpc "github.com/hashicorp/consul-net-rpc/net-rpc-msgpackrpc"
 	"github.com/hashicorp/go-uuid"
 )
 

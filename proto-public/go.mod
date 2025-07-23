@@ -1,4 +1,4 @@
-module github.com/hashicorp/consul/proto-public
+module github.com/dhiaayachi/consul/proto-public
 
 go 1.23.8
 

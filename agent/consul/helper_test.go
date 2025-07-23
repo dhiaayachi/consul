@@ -13,8 +13,8 @@ import (
 	"github.com/hashicorp/serf/serf"
 	"github.com/stretchr/testify/require"
 
-	msgpackrpc "github.com/dhiaayachi/consul-net-rpc/net-rpc-msgpackrpc"
-	"github.com/dhiaayachi/consul-net-rpc/net/rpc"
+	msgpackrpc "github.com/hashicorp/consul-net-rpc/net-rpc-msgpackrpc"
+	"github.com/hashicorp/consul-net-rpc/net/rpc"
 
 	"github.com/dhiaayachi/consul/acl"
 	"github.com/dhiaayachi/consul/agent/consul/state"

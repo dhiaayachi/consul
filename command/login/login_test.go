@@ -15,7 +15,6 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/stretchr/testify/require"
 
-	"github.com/dhiaayachi/consul-awsauth/iamauthtest"
 	"github.com/dhiaayachi/consul/agent"
 	"github.com/dhiaayachi/consul/agent/consul/authmethod/kubeauth"
 	"github.com/dhiaayachi/consul/agent/consul/authmethod/testauth"
@@ -24,6 +23,7 @@ import (
 	"github.com/dhiaayachi/consul/internal/go-sso/oidcauth/oidcauthtest"
 	"github.com/dhiaayachi/consul/sdk/testutil"
 	"github.com/dhiaayachi/consul/testrpc"
+	"github.com/hashicorp/consul-awsauth/iamauthtest"
 )
 
 func TestLoginCommand_noTabs(t *testing.T) {

@@ -1,14 +1,14 @@
-module github.com/hashicorp/consul/testing/deployer
+module github.com/dhiaayachi/consul/testing/deployer
 
 go 1.23.8
 
 require (
 	github.com/avast/retry-go v3.0.0+incompatible
 	github.com/dhiaayachi/consul/api v1.32.1
+	github.com/dhiaayachi/consul/proto-public v0.6.2
 	github.com/dhiaayachi/consul/sdk v0.16.2
 	github.com/google/go-cmp v0.6.0
 	github.com/hashicorp/consul-server-connection-manager v0.1.4
-	github.com/hashicorp/consul/proto-public v0.6.2
 	github.com/hashicorp/go-cleanhttp v0.5.2
 	github.com/hashicorp/go-hclog v1.5.0
 	github.com/hashicorp/go-multierror v1.1.1
@@ -34,6 +34,7 @@ require (
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/fatih/color v1.16.0 // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
+	github.com/hashicorp/consul/proto-public v0.1.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-immutable-radix v1.3.1 // indirect
 	github.com/hashicorp/go-netaddrs v0.1.0 // indirect
@@ -63,6 +64,6 @@ require (
 
 replace (
 	github.com/dhiaayachi/consul/api => ../../api
+	github.com/dhiaayachi/consul/proto-public => ../../proto-public
 	github.com/dhiaayachi/consul/sdk => ../../sdk
-	github.com/hashicorp/consul/proto-public => ../../proto-public
 )

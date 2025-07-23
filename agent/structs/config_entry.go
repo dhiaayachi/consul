@@ -15,7 +15,7 @@ import (
 	"github.com/mitchellh/hashstructure"
 	"github.com/mitchellh/mapstructure"
 
-	"github.com/dhiaayachi/consul-net-rpc/go-msgpack/codec"
+	"github.com/hashicorp/consul-net-rpc/go-msgpack/codec"
 	"github.com/hashicorp/go-multierror"
 
 	"github.com/dhiaayachi/consul/acl"
@@ -855,7 +855,7 @@ func MakeConfigEntry(kind, name string) (ConfigEntry, error) {
 	case LLMAgent:
 		return &LLMAgentConfigEntry{Name: name}, nil
 	case LLMAgentExternalServers:
-		return &LLMAgentExternalServersConfigEntry{}, nil
+		return &LLMAgentExternalServersConfigEntry{Name: name}, nil
 
 	default:
 		return nil, fmt.Errorf("invalid config entry kind: %s", kind)

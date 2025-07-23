@@ -23,8 +23,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	msgpackrpc "github.com/dhiaayachi/consul-net-rpc/net-rpc-msgpackrpc"
-	"github.com/dhiaayachi/consul-net-rpc/net/rpc"
+	msgpackrpc "github.com/hashicorp/consul-net-rpc/net-rpc-msgpackrpc"
+	"github.com/hashicorp/consul-net-rpc/net/rpc"
 	vaultapi "github.com/hashicorp/vault/api"
 
 	"github.com/dhiaayachi/consul/acl"

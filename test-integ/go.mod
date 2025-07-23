@@ -1,4 +1,4 @@
-module github.com/hashicorp/consul/test-integ
+module github.com/dhiaayachi/consul/test-integ
 
 go 1.23.10
 
@@ -6,11 +6,11 @@ toolchain go1.23.11
 
 require (
 	github.com/dhiaayachi/consul/api v1.32.1
+	github.com/dhiaayachi/consul/proto-public v0.6.4
 	github.com/dhiaayachi/consul/sdk v0.16.2
+	github.com/dhiaayachi/consul/test/integration/consul-container v0.0.0-20230628201853-bdf4fad7c5a5
+	github.com/dhiaayachi/consul/testing/deployer v0.0.0-20230811171106-4a0afb5d1373
 	github.com/google/go-cmp v0.6.0
-	github.com/hashicorp/consul/proto-public v0.6.4
-	github.com/hashicorp/consul/test/integration/consul-container v0.0.0-20230628201853-bdf4fad7c5a5
-	github.com/hashicorp/consul/testing/deployer v0.0.0-20230811171106-4a0afb5d1373
 	github.com/hashicorp/go-cleanhttp v0.5.2
 	github.com/itchyny/gojq v0.12.13
 	github.com/mitchellh/copystructure v1.2.0
@@ -39,6 +39,7 @@ require (
 	github.com/containerd/containerd v1.7.3 // indirect
 	github.com/cpuguy83/dockercfg v0.3.1 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
+	github.com/dhiaayachi/consul v1.21.2 // indirect
 	github.com/docker/distribution v2.8.2+incompatible // indirect
 	github.com/docker/docker v24.0.5+incompatible // indirect
 	github.com/docker/go-connections v0.4.0 // indirect
@@ -51,8 +52,8 @@ require (
 	github.com/golang/protobuf v1.5.4 // indirect
 	github.com/google/btree v1.0.1 // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	github.com/hashicorp/consul v1.21.2 // indirect
 	github.com/hashicorp/consul-server-connection-manager v0.1.4 // indirect
+	github.com/hashicorp/consul/proto-public v0.1.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-hclog v1.6.3 // indirect
 	github.com/hashicorp/go-immutable-radix v1.3.1 // indirect
@@ -112,11 +113,11 @@ require (
 )
 
 replace (
+	github.com/dhiaayachi/consul => ../
 	github.com/dhiaayachi/consul/api => ../api
 	github.com/dhiaayachi/consul/envoyextensions => ../envoyextensions
+	github.com/dhiaayachi/consul/proto-public => ../proto-public
 	github.com/dhiaayachi/consul/sdk => ../sdk
-	github.com/hashicorp/consul => ../
-	github.com/hashicorp/consul/proto-public => ../proto-public
-	github.com/hashicorp/consul/test/integration/consul-container => ../test/integration/consul-container
-	github.com/hashicorp/consul/testing/deployer => ../testing/deployer
+	github.com/dhiaayachi/consul/test/integration/consul-container => ../test/integration/consul-container
+	github.com/dhiaayachi/consul/testing/deployer => ../testing/deployer
 )

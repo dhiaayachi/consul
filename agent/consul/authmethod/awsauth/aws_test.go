@@ -11,10 +11,10 @@ import (
 	"testing"
 
 	"github.com/aws/aws-sdk-go/aws/credentials"
-	iamauth "github.com/dhiaayachi/consul-awsauth"
-	"github.com/dhiaayachi/consul-awsauth/iamauthtest"
 	"github.com/dhiaayachi/consul/agent/consul/authmethod"
 	"github.com/dhiaayachi/consul/agent/structs"
+	iamauth "github.com/hashicorp/consul-awsauth"
+	"github.com/hashicorp/consul-awsauth/iamauthtest"
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/require"
 )

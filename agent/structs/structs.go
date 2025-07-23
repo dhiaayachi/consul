@@ -26,7 +26,7 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/dhiaayachi/consul-net-rpc/go-msgpack/codec"
+	"github.com/hashicorp/consul-net-rpc/go-msgpack/codec"
 
 	"github.com/dhiaayachi/consul/acl"
 	"github.com/dhiaayachi/consul/agent/cache"

@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/dhiaayachi/consul-net-rpc/go-msgpack/codec"
+	"github.com/hashicorp/consul-net-rpc/go-msgpack/codec"
 
 	"github.com/dhiaayachi/consul/agent/consul/state"
 	"github.com/dhiaayachi/consul/agent/structs"

@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/dhiaayachi/consul-net-rpc/net/rpc"
 	"github.com/dhiaayachi/consul/testrpc"
+	"github.com/hashicorp/consul-net-rpc/net/rpc"
 	"github.com/stretchr/testify/require"
 )
 

@@ -1,4 +1,4 @@
-module github.com/hashicorp/consul
+module github.com/dhiaayachi/consul
 
 go 1.23
 

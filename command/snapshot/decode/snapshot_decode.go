@@ -12,7 +12,6 @@ import (
 	"path"
 	"strings"
 
-	"github.com/dhiaayachi/consul-net-rpc/go-msgpack/codec"
 	"github.com/dhiaayachi/consul/agent/consul/fsm"
 	"github.com/dhiaayachi/consul/agent/consul/state"
 	"github.com/dhiaayachi/consul/agent/structs"
@@ -20,6 +19,7 @@ import (
 	"github.com/dhiaayachi/consul/proto-public/pbresource"
 	"github.com/dhiaayachi/consul/proto/private/pbpeering"
 	"github.com/dhiaayachi/consul/snapshot"
+	"github.com/hashicorp/consul-net-rpc/go-msgpack/codec"
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-raftchunking"
 	"github.com/hashicorp/raft"

@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dhiaayachi/consul-net-rpc/go-msgpack/codec"
 	"github.com/dhiaayachi/consul/agent/structs"
 	"github.com/dhiaayachi/consul/sdk/testutil"
+	"github.com/hashicorp/consul-net-rpc/go-msgpack/codec"
 	"github.com/hashicorp/raft"
 	"github.com/stretchr/testify/require"
 )

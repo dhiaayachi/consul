@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dhiaayachi/consul-net-rpc/go-msgpack/codec"
+	"github.com/hashicorp/consul-net-rpc/go-msgpack/codec"
 	"github.com/stretchr/testify/require"
 
 	"github.com/dhiaayachi/consul/agent/structs"
